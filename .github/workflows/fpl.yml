@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add fpl_transfers_and_chips.xlsx
+          git add WWHALigaData.xlsx
           git commit -m "Update report [skip ci]" || echo "No changes"
           git push
