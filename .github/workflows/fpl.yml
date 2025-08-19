@@ -9,6 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -31,3 +35,5 @@ jobs:
           git add WWHALigaData.xlsx
           git commit -m "Update report [skip ci]" || echo "No changes"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
