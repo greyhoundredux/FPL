@@ -175,7 +175,9 @@ for entry_id in entries:
 print(f"✅")
 
 df_transfers = pd.DataFrame(all_transfers)
-df_transfers.sort_values(by=['Gameweek', 'Manager Name'], inplace=True)
+
+if not df_transfers.empty:
+    df_transfers.sort_values(by=['Gameweek', 'Manager Name'], inplace=True)
 
 # === Step 4: Write to Excel ===
 print(f"Writing...")
