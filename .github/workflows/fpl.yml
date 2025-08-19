@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run FPL script
-        run: python fpl_report.py
+        run: python fplData.py
 
       - name: Commit report
         run: |
