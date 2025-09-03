@@ -28,7 +28,7 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,3787374,Bob's Bangers,Rob Pezzack,12,Kepa Arrizabalaga Revuelta,ARS,GK,Kepa Arrizabalaga Revuelta,ARS,GK,Kepa Arrizabalaga Revuelta,ARS,GK
 542663,3787374,Bob's Bangers,Rob Pezzack,13,Wesley Fofana,CHE,DEF,Jacob Murphy,NEW,MID,Myles Lewis-Skelly,ARS,DEF
 542663,3787374,Bob's Bangers,Rob Pezzack,14,Harry Wilson,FUL,MID,Harry Wilson,FUL,MID,Wesley Fofana,CHE,DEF
-542663,3787374,Bob's Bangers,Rob Pezzack,15,Alexander Isak,NEW,FWD,James Ward-Prowse,WHU,MID,James Ward-Prowse,WHU,MID
+542663,3787374,Bob's Bangers,Rob Pezzack,15,Alexander Isak,LIV,FWD,James Ward-Prowse,WHU,MID,James Ward-Prowse,WHU,MID
 542663,8360601,BrokebackMount10,Tom O'Connor,1,Alisson Becker,LIV,GK,Alisson Becker,LIV,GK,Robert Lynch Sánchez,CHE,GK
 542663,8360601,BrokebackMount10,Tom O'Connor,2,Ezri Konsa Ngoyo,AVL,DEF,Ola Aina,NFO,DEF,Ola Aina,NFO,DEF
 542663,8360601,BrokebackMount10,Tom O'Connor,3,Virgil van Dijk,LIV,DEF,Virgil van Dijk,LIV,DEF,Jurriën Timber,ARS,DEF
@@ -132,8 +132,8 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,292068,Ekitike-taka,Luke Morris,11,João Pedro Junqueira de Jesus,CHE,FWD,João Pedro Junqueira de Jesus,CHE,FWD,João Pedro Junqueira de Jesus,CHE,FWD
 542663,292068,Ekitike-taka,Luke Morris,12,Martin Dúbravka,BUR,GK,Martin Dúbravka,BUR,GK,Martin Dúbravka,BUR,GK
 542663,292068,Ekitike-taka,Luke Morris,13,Ezri Konsa Ngoyo,AVL,DEF,Cole Palmer,CHE,MID,Maxime Estève,BUR,DEF
-542663,292068,Ekitike-taka,Luke Morris,14,Maxime Estève,BUR,DEF,Marc Guiu Paz,SUN,FWD,Marc Guiu Paz,SUN,FWD
-542663,292068,Ekitike-taka,Luke Morris,15,Marc Guiu Paz,SUN,FWD,Ezri Konsa Ngoyo,AVL,DEF,Cole Palmer,CHE,MID
+542663,292068,Ekitike-taka,Luke Morris,14,Maxime Estève,BUR,DEF,Marc Guiu Paz,CHE,FWD,Marc Guiu Paz,CHE,FWD
+542663,292068,Ekitike-taka,Luke Morris,15,Marc Guiu Paz,CHE,FWD,Ezri Konsa Ngoyo,AVL,DEF,Cole Palmer,CHE,MID
 542663,2242271,Endo The Line,Matt Hall,1,Caoimhín Kelleher,BRE,GK,Caoimhín Kelleher,BRE,GK,Caoimhín Kelleher,BRE,GK
 542663,2242271,Endo The Line,Matt Hall,2,James Tarkowski,EVE,DEF,James Tarkowski,EVE,DEF,James Tarkowski,EVE,DEF
 542663,2242271,Endo The Line,Matt Hall,3,Daniel Muñoz Mejía,CRY,DEF,Daniel Muñoz Mejía,CRY,DEF,Daniel Muñoz Mejía,CRY,DEF
@@ -162,8 +162,8 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,3329426,Frank & Earnest,Simon Pickthall,11,Chris Wood,NFO,FWD,Hugo Ekitiké,LIV,FWD,João Pedro Junqueira de Jesus,CHE,FWD
 542663,3329426,Frank & Earnest,Simon Pickthall,12,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK,Jordan Pickford,EVE,GK
 542663,3329426,Frank & Earnest,Simon Pickthall,13,Joško Gvardiol,MCI,DEF,Jacob Murphy,NEW,MID,Antoine Semenyo,BOU,MID
-542663,3329426,Frank & Earnest,Simon Pickthall,14,Yoane Wissa,BRE,FWD,Yoane Wissa,BRE,FWD,Jacob Murphy,NEW,MID
-542663,3329426,Frank & Earnest,Simon Pickthall,15,Alexander Isak,NEW,FWD,Joško Gvardiol,MCI,DEF,Joško Gvardiol,MCI,DEF
+542663,3329426,Frank & Earnest,Simon Pickthall,14,Yoane Wissa,NEW,FWD,Yoane Wissa,NEW,FWD,Jacob Murphy,NEW,MID
+542663,3329426,Frank & Earnest,Simon Pickthall,15,Alexander Isak,LIV,FWD,Joško Gvardiol,MCI,DEF,Joško Gvardiol,MCI,DEF
 542663,6888038,Game of Jones,jamie jones,1,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK
 542663,6888038,Game of Jones,jamie jones,2,Micky van de Ven,TOT,DEF,Maxime Estève,BUR,DEF,Micky van de Ven,TOT,DEF
 542663,6888038,Game of Jones,jamie jones,3,Ezri Konsa Ngoyo,AVL,DEF,Patrick Dorgu,MUN,DEF,El Hadji Malick Diouf,WHU,DEF
@@ -202,11 +202,11 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,3405842,Hardly Athletic,Jen Barton,6,Mohamed Salah,LIV,MID,Mohamed Salah,LIV,MID,Mohamed Salah,LIV,MID
 542663,3405842,Hardly Athletic,Jen Barton,7,Morgan Rogers,AVL,MID,Harry Wilson,FUL,MID,Elliot Anderson,NFO,MID
 542663,3405842,Hardly Athletic,Jen Barton,8,Cole Palmer,CHE,MID,Morgan Rogers,AVL,MID,Enzo Fernández,CHE,MID
-542663,3405842,Hardly Athletic,Jen Barton,9,Harry Wilson,FUL,MID,Marc Guiu Paz,SUN,FWD,Hugo Ekitiké,LIV,FWD
+542663,3405842,Hardly Athletic,Jen Barton,9,Harry Wilson,FUL,MID,Marc Guiu Paz,CHE,FWD,Hugo Ekitiké,LIV,FWD
 542663,3405842,Hardly Athletic,Jen Barton,10,Erling Haaland,MCI,FWD,Erling Haaland,MCI,FWD,Erling Haaland,MCI,FWD
 542663,3405842,Hardly Athletic,Jen Barton,11,Jarrod Bowen,WHU,FWD,Jarrod Bowen,WHU,FWD,João Pedro Junqueira de Jesus,CHE,FWD
 542663,3405842,Hardly Athletic,Jen Barton,12,Martin Dúbravka,BUR,GK,Martin Dúbravka,BUR,GK,Martin Dúbravka,BUR,GK
-542663,3405842,Hardly Athletic,Jen Barton,13,Marc Guiu Paz,SUN,FWD,Aaron Wan-Bissaka,WHU,DEF,Joe Rodon,LEE,DEF
+542663,3405842,Hardly Athletic,Jen Barton,13,Marc Guiu Paz,CHE,FWD,Aaron Wan-Bissaka,WHU,DEF,Joe Rodon,LEE,DEF
 542663,3405842,Hardly Athletic,Jen Barton,14,Justin Devenny,CRY,MID,Justin Devenny,CRY,MID,Justin Devenny,CRY,MID
 542663,3405842,Hardly Athletic,Jen Barton,15,Álex Moreno Lopera,AVL,DEF,Álex Moreno Lopera,AVL,DEF,Maxime Estève,BUR,DEF
 542663,3806071,La La Landerers,Seema Thomas,1,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK
@@ -232,11 +232,11 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,6,Florian Wirtz,LIV,MID,Mohammed Kudus,TOT,MID,Mohammed Kudus,TOT,MID
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,7,Mohammed Kudus,TOT,MID,Kiernan Dewsbury-Hall,EVE,MID,Kiernan Dewsbury-Hall,EVE,MID
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,8,Kiernan Dewsbury-Hall,EVE,MID,Bukayo Saka,ARS,MID,Pedro Lomba Neto,CHE,MID
-542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,9,Bukayo Saka,ARS,MID,Marc Guiu Paz,SUN,FWD,Marc Guiu Paz,SUN,FWD
+542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,9,Bukayo Saka,ARS,MID,Marc Guiu Paz,CHE,FWD,Marc Guiu Paz,CHE,FWD
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,10,Erling Haaland,MCI,FWD,Erling Haaland,MCI,FWD,Erling Haaland,MCI,FWD
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,11,Ollie Watkins,AVL,FWD,Ollie Watkins,AVL,FWD,Ollie Watkins,AVL,FWD
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,12,Martin Dúbravka,BUR,GK,Martin Dúbravka,BUR,GK,Bart Verbruggen,BHA,GK
-542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,13,Marc Guiu Paz,SUN,FWD,Cole Palmer,CHE,MID,Cole Palmer,CHE,MID
+542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,13,Marc Guiu Paz,CHE,FWD,Cole Palmer,CHE,MID,Cole Palmer,CHE,MID
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,14,Marc Guéhi,CRY,DEF,El Hadji Malick Diouf,WHU,DEF,Maxime Estève,BUR,DEF
 542663,6820733,Lana Del Gavin Rae,Kieran O'Brien,15,Maxime Estève,BUR,DEF,Ezri Konsa Ngoyo,AVL,DEF,Marc Guéhi,CRY,DEF
 542663,6119737,Mainoo Knighted,Sam Jones,1,Matz Sels,NFO,GK,David Raya Martín,ARS,GK,Matz Sels,NFO,GK
@@ -297,8 +297,8 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,6136013,My Wirtz Nightmare,Ciaran Lewis,11,Jean-Philippe Mateta,CRY,FWD,Jean-Philippe Mateta,CRY,FWD,Jean-Philippe Mateta,CRY,FWD
 542663,6136013,My Wirtz Nightmare,Ciaran Lewis,12,Bart Verbruggen,BHA,GK,Bart Verbruggen,BHA,GK,Bart Verbruggen,BHA,GK
 542663,6136013,My Wirtz Nightmare,Ciaran Lewis,13,Álex Moreno Lopera,AVL,DEF,Álex Moreno Lopera,AVL,DEF,Álex Moreno Lopera,AVL,DEF
-542663,6136013,My Wirtz Nightmare,Ciaran Lewis,14,Joško Gvardiol,MCI,DEF,Jacob Murphy,NEW,MID,Yoane Wissa,BRE,FWD
-542663,6136013,My Wirtz Nightmare,Ciaran Lewis,15,Yoane Wissa,BRE,FWD,Yoane Wissa,BRE,FWD,Alex Iwobi,FUL,MID
+542663,6136013,My Wirtz Nightmare,Ciaran Lewis,14,Joško Gvardiol,MCI,DEF,Jacob Murphy,NEW,MID,Yoane Wissa,NEW,FWD
+542663,6136013,My Wirtz Nightmare,Ciaran Lewis,15,Yoane Wissa,NEW,FWD,Yoane Wissa,NEW,FWD,Alex Iwobi,FUL,MID
 542663,8360929,Neville Wears Prada,Katie Britton,1,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK
 542663,8360929,Neville Wears Prada,Katie Britton,2,Virgil van Dijk,LIV,DEF,Virgil van Dijk,LIV,DEF,Virgil van Dijk,LIV,DEF
 542663,8360929,Neville Wears Prada,Katie Britton,3,Milos Kerkez,LIV,DEF,Milos Kerkez,LIV,DEF,Milos Kerkez,LIV,DEF
@@ -312,8 +312,8 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,8360929,Neville Wears Prada,Katie Britton,11,Jarrod Bowen,WHU,FWD,Jarrod Bowen,WHU,FWD,Jarrod Bowen,WHU,FWD
 542663,8360929,Neville Wears Prada,Katie Britton,12,Kepa Arrizabalaga Revuelta,ARS,GK,Kepa Arrizabalaga Revuelta,ARS,GK,Kepa Arrizabalaga Revuelta,ARS,GK
 542663,8360929,Neville Wears Prada,Katie Britton,13,Joško Gvardiol,MCI,DEF,Joško Gvardiol,MCI,DEF,Joško Gvardiol,MCI,DEF
-542663,8360929,Neville Wears Prada,Katie Britton,14,Alexander Isak,NEW,FWD,Jacob Murphy,NEW,MID,Cole Palmer,CHE,MID
-542663,8360929,Neville Wears Prada,Katie Britton,15,Danny Welbeck,BHA,FWD,Alexander Isak,NEW,FWD,Alexander Isak,NEW,FWD
+542663,8360929,Neville Wears Prada,Katie Britton,14,Alexander Isak,LIV,FWD,Jacob Murphy,NEW,MID,Cole Palmer,CHE,MID
+542663,8360929,Neville Wears Prada,Katie Britton,15,Danny Welbeck,BHA,FWD,Alexander Isak,LIV,FWD,Alexander Isak,LIV,FWD
 542663,6464337,Ninian Gooners,Julian Ling,1,José Malheiro de Sá,WOL,GK,Jordan Pickford,EVE,GK,Jordan Pickford,EVE,GK
 542663,6464337,Ninian Gooners,Julian Ling,2,Gabriel dos Santos Magalhães,ARS,DEF,Gabriel dos Santos Magalhães,ARS,DEF,Gabriel dos Santos Magalhães,ARS,DEF
 542663,6464337,Ninian Gooners,Julian Ling,3,Ola Aina,NFO,DEF,Ola Aina,NFO,DEF,Ola Aina,NFO,DEF
@@ -398,11 +398,11 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,776428,Super Furry Ampadus,Fantasy Elliot,7,Cole Palmer,CHE,MID,Kiernan Dewsbury-Hall,EVE,MID,Elliot Anderson,NFO,MID
 542663,776428,Super Furry Ampadus,Fantasy Elliot,8,Florian Wirtz,LIV,MID,Florian Wirtz,LIV,MID,Florian Wirtz,LIV,MID
 542663,776428,Super Furry Ampadus,Fantasy Elliot,9,Kiernan Dewsbury-Hall,EVE,MID,Erling Haaland,MCI,FWD,Erling Haaland,MCI,FWD
-542663,776428,Super Furry Ampadus,Fantasy Elliot,10,Erling Haaland,MCI,FWD,Marc Guiu Paz,SUN,FWD,João Pedro Junqueira de Jesus,CHE,FWD
+542663,776428,Super Furry Ampadus,Fantasy Elliot,10,Erling Haaland,MCI,FWD,Marc Guiu Paz,CHE,FWD,João Pedro Junqueira de Jesus,CHE,FWD
 542663,776428,Super Furry Ampadus,Fantasy Elliot,11,Hugo Ekitiké,LIV,FWD,Hugo Ekitiké,LIV,FWD,Hugo Ekitiké,LIV,FWD
 542663,776428,Super Furry Ampadus,Fantasy Elliot,12,Alphonse Areola,WHU,GK,Alphonse Areola,WHU,GK,Alphonse Areola,WHU,GK
 542663,776428,Super Furry Ampadus,Fantasy Elliot,13,Tosin Adarabioyo,CHE,DEF,Cole Palmer,CHE,MID,Cole Palmer,CHE,MID
-542663,776428,Super Furry Ampadus,Fantasy Elliot,14,Marc Guiu Paz,SUN,FWD,Micky van de Ven,TOT,DEF,Micky van de Ven,TOT,DEF
+542663,776428,Super Furry Ampadus,Fantasy Elliot,14,Marc Guiu Paz,CHE,FWD,Micky van de Ven,TOT,DEF,Micky van de Ven,TOT,DEF
 542663,776428,Super Furry Ampadus,Fantasy Elliot,15,El Hadji Malick Diouf,WHU,DEF,El Hadji Malick Diouf,WHU,DEF,Kiernan Dewsbury-Hall,EVE,MID
 542663,8346947,The Goodison Gang,Ben Davies,1,David Raya Martín,ARS,GK,David Raya Martín,ARS,GK,Altay Bayındır,MUN,GK
 542663,8346947,The Goodison Gang,Ben Davies,2,Reece James,CHE,DEF,Reece James,CHE,DEF,Diogo Dalot Teixeira,MUN,DEF
@@ -448,7 +448,7 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,1297823,The Last Dance,Robin Jones,12,Martin Dúbravka,BUR,GK,Robert Lynch Sánchez,CHE,GK,Martin Dúbravka,BUR,GK
 542663,1297823,The Last Dance,Robin Jones,13,Patrick Dorgu,MUN,DEF,Cole Palmer,CHE,MID,Patrick Dorgu,MUN,DEF
 542663,1297823,The Last Dance,Robin Jones,14,Maxime Estève,BUR,DEF,Pedro Porro Sauceda,TOT,DEF,Maxime Estève,BUR,DEF
-542663,1297823,The Last Dance,Robin Jones,15,Marc Guiu Paz,SUN,FWD,Marc Guiu Paz,SUN,FWD,Marc Guiu Paz,SUN,FWD
+542663,1297823,The Last Dance,Robin Jones,15,Marc Guiu Paz,CHE,FWD,Marc Guiu Paz,CHE,FWD,Marc Guiu Paz,CHE,FWD
 542663,9143639,Turkish De Ligt,Sam Green,1,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK
 542663,9143639,Turkish De Ligt,Sam Green,2,Jeremie Frimpong,LIV,DEF,Gabriel dos Santos Magalhães,ARS,DEF,Gabriel dos Santos Magalhães,ARS,DEF
 542663,9143639,Turkish De Ligt,Sam Green,3,Micky van de Ven,TOT,DEF,Patrick Dorgu,MUN,DEF,Micky van de Ven,TOT,DEF
@@ -457,12 +457,12 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 542663,9143639,Turkish De Ligt,Sam Green,6,Mohamed Salah,LIV,MID,Florian Wirtz,LIV,MID,Mohamed Salah,LIV,MID
 542663,9143639,Turkish De Ligt,Sam Green,7,Florian Wirtz,LIV,MID,Iliman Ndiaye,EVE,MID,Florian Wirtz,LIV,MID
 542663,9143639,Turkish De Ligt,Sam Green,8,Iliman Ndiaye,EVE,MID,Elliot Anderson,NFO,MID,Iliman Ndiaye,EVE,MID
-542663,9143639,Turkish De Ligt,Sam Green,9,Elliot Anderson,NFO,MID,Marc Guiu Paz,SUN,FWD,Elliot Anderson,NFO,MID
+542663,9143639,Turkish De Ligt,Sam Green,9,Elliot Anderson,NFO,MID,Marc Guiu Paz,CHE,FWD,Elliot Anderson,NFO,MID
 542663,9143639,Turkish De Ligt,Sam Green,10,Ollie Watkins,AVL,FWD,Ollie Watkins,AVL,FWD,Ollie Watkins,AVL,FWD
 542663,9143639,Turkish De Ligt,Sam Green,11,João Pedro Junqueira de Jesus,CHE,FWD,João Pedro Junqueira de Jesus,CHE,FWD,João Pedro Junqueira de Jesus,CHE,FWD
 542663,9143639,Turkish De Ligt,Sam Green,12,Martin Dúbravka,BUR,GK,Martin Dúbravka,BUR,GK,Martin Dúbravka,BUR,GK
-542663,9143639,Turkish De Ligt,Sam Green,13,Marc Guiu Paz,SUN,FWD,Cole Palmer,CHE,MID,Patrick Dorgu,MUN,DEF
-542663,9143639,Turkish De Ligt,Sam Green,14,Patrick Dorgu,MUN,DEF,Micky van de Ven,TOT,DEF,Marc Guiu Paz,SUN,FWD
+542663,9143639,Turkish De Ligt,Sam Green,13,Marc Guiu Paz,CHE,FWD,Cole Palmer,CHE,MID,Patrick Dorgu,MUN,DEF
+542663,9143639,Turkish De Ligt,Sam Green,14,Patrick Dorgu,MUN,DEF,Micky van de Ven,TOT,DEF,Marc Guiu Paz,CHE,FWD
 542663,9143639,Turkish De Ligt,Sam Green,15,Maxime Estève,BUR,DEF,Maxime Estève,BUR,DEF,Maxime Estève,BUR,DEF
 542663,29742,Up em stairs!,Craig Jones,1,Martin Dúbravka,BUR,GK,Robert Lynch Sánchez,CHE,GK,Robert Lynch Sánchez,CHE,GK
 542663,29742,Up em stairs!,Craig Jones,2,Neco Williams,NFO,DEF,Virgil van Dijk,LIV,DEF,Neco Williams,NFO,DEF
