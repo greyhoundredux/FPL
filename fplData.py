@@ -2,15 +2,37 @@ import requests
 import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-print(f"Initialising...")
+print("Initialising...")
+
 # === Set your mini-league ID ===
 league_id = '542663'
 
+# === Shared session with retry/backoff ===
+session = requests.Session()
+retries = Retry(
+    total=5,
+    backoff_factor=0.5,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"],
+)
+session.mount("https://", HTTPAdapter(max_retries=retries, pool_maxsize=20))
+
+BASE = "https://fantasy.premierleague.com/api"
+
+
+def get_json(url):
+    resp = session.get(url, timeout=15)
+    if resp.status_code != 200:
+        return None
+    return resp.json()
+
+
 # === Get league standings ===
-league_url = f"https://fantasy.premierleague.com/api/leagues-classic/{league_id}/standings/"
-response = requests.get(league_url)
-league_data = response.json()
+league_url = f"{BASE}/leagues-classic/{league_id}/standings/"
+league_data = get_json(league_url)
 
 entry_map = {}
 for entry in league_data['standings']['results']:
@@ -22,7 +44,7 @@ for entry in league_data['standings']['results']:
 entries = list(entry_map.keys())
 
 # === Get player static data ===
-bootstrap = requests.get("https://fantasy.premierleague.com/api/bootstrap-static/").json()
+bootstrap = get_json(f"{BASE}/bootstrap-static/")
 elements = bootstrap['elements']
 teams = bootstrap['teams']
 positions = bootstrap['element_types']
@@ -31,97 +53,109 @@ id_to_name = {e['id']: e['web_name'] for e in elements}
 id_to_team = {e['id']: teams[e['team'] - 1]['name'] for e in elements}
 id_to_position = {e['id']: positions[e['element_type'] - 1]['singular_name'] for e in elements}
 
-# === Step 1: Collect chip usage ===
-chip_data = []
-free_hit_by_entry = {}
-triple_captain_week_by_entry = {}
+# === Caches shared across steps to avoid re-fetching the same data ===
+picks_cache = {}   # (entry_id, gw) -> picks list or None
+live_cache = {}     # gw -> {player_id: total_points}
 
-print(f"Fetching chip data...")
+
+def get_picks(entry_id, gw):
+    key = (entry_id, gw)
+    if key not in picks_cache:
+        data = get_json(f"{BASE}/entry/{entry_id}/event/{gw}/picks/")
+        picks_cache[key] = data['picks'] if data else None
+    return picks_cache[key]
+
+
+def get_live_points(gw):
+    if gw not in live_cache:
+        data = get_json(f"{BASE}/event/{gw}/live/")
+        if data:
+            live_cache[gw] = {p['id']: p['stats']['total_points'] for p in data['elements']}
+        else:
+            live_cache[gw] = None
+    return live_cache[gw]
+
+
+# === Step 1: Collect chip usage ===
+# Every chip can now be used twice a season (once per half). Rather than
+# hardcoding a gameweek cutoff, we sort each manager's usages of a given
+# chip chronologically and label them "1st"/"2nd" in the order they
+# actually happened - this works regardless of where the season splits fall.
+CHIP_LABELS = {
+    "wildcard": "Wildcard",
+    "freehit": "Free Hit",
+    "bboost": "Bench Boost",
+    "3xc": "Triple Captain",
+}
+
+chip_data = []
+free_hit_weeks_by_entry = {}      # entry_id -> [gw, ...]
+triple_captain_weeks_by_entry = {}  # entry_id -> [gw, ...]
+
+print("Fetching chip data...")
 for entry_id in entries:
-    history_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/history/"
-    resp = requests.get(history_url)
+    history = get_json(f"{BASE}/entry/{entry_id}/history/")
 
     chip_dict = {
         'Manager Name': entry_map[entry_id]['manager_name'],
         'Team Name': entry_map[entry_id]['team_name'],
-        'Wildcard 1': '-',
-        'Wildcard 2': '-',
-        'Free Hit': '-',
-        'Bench Boost': '-',
-        'Triple Captain': '-',
-        'Triple Captain Player': '-',
-        'TC Points': '-',
     }
+    for label in CHIP_LABELS.values():
+        chip_dict[f"{label} 1"] = '-'
+        chip_dict[f"{label} 2"] = '-'
+    chip_dict["Triple Captain 1 Player"] = '-'
+    chip_dict["Triple Captain 1 Points"] = '-'
+    chip_dict["Triple Captain 2 Player"] = '-'
+    chip_dict["Triple Captain 2 Points"] = '-'
 
-    free_hit_week = None
-    triple_captain_week = None
+    # Group this entry's chip usages by chip name, in chronological order
+    usages_by_name = {}
+    if history:
+        for chip in sorted(history.get("chips", []), key=lambda c: c['event']):
+            usages_by_name.setdefault(chip['name'], []).append(chip['event'])
 
-    if resp.status_code == 200:
-        chips = resp.json().get("chips", [])
-        for chip in chips:
-            name = chip['name']
-            gw = chip['event']
-            if name == "wildcard":
-                if gw <= 20:
-                    chip_dict["Wildcard 1"] = gw
-                else:
-                    chip_dict["Wildcard 2"] = gw
-            elif name == "freehit":
-                chip_dict["Free Hit"] = gw
-                free_hit_week = gw
-            elif name == "3xc":
-                chip_dict["Triple Captain"] = gw
-                triple_captain_week = gw
-            elif name == "bboost":
-                chip_dict["Bench Boost"] = gw
+    free_hit_weeks = usages_by_name.get("freehit", [])
+    triple_captain_weeks = usages_by_name.get("3xc", [])
 
-    free_hit_by_entry[entry_id] = free_hit_week
-    triple_captain_week_by_entry[entry_id] = triple_captain_week
+    free_hit_weeks_by_entry[entry_id] = free_hit_weeks
+    triple_captain_weeks_by_entry[entry_id] = triple_captain_weeks
 
-    if triple_captain_week:
-        picks_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/event/{triple_captain_week}/picks/"
-        live_url = f"https://fantasy.premierleague.com/api/event/{triple_captain_week}/live/"
+    for name, label in CHIP_LABELS.items():
+        weeks = usages_by_name.get(name, [])
+        for i, gw in enumerate(weeks[:2]):  # only ever 2 uses per chip
+            chip_dict[f"{label} {i + 1}"] = gw
 
-        picks_resp = requests.get(picks_url)
-        live_resp = requests.get(live_url)
+    for i, gw in enumerate(triple_captain_weeks[:2]):
+        picks = get_picks(entry_id, gw)
+        player_stats = get_live_points(gw)
 
-        if picks_resp.status_code == 200 and live_resp.status_code == 200:
-            captain_id = next((p['element'] for p in picks_resp.json()['picks'] if p['is_captain']), None)
+        if picks and player_stats:
+            captain_id = next((p['element'] for p in picks if p['is_captain']), None)
             if captain_id:
-                chip_dict["Triple Captain Player"] = id_to_name.get(captain_id, '-')
-
-                # Get points from live data
-                player_stats = {p['id']: p['stats']['total_points'] for p in live_resp.json()['elements']}
-                chip_dict["TC Points"] = player_stats.get(captain_id, '-')
+                chip_dict[f"Triple Captain {i + 1} Player"] = id_to_name.get(captain_id, '-')
+                chip_dict[f"Triple Captain {i + 1} Points"] = player_stats.get(captain_id, '-')
 
     chip_data.append(chip_dict)
-print(f"✅")
+print("✅")
 
 df_chips = pd.DataFrame(chip_data)
 
-# === Step 2: Optimized Captaincy Data Collection ===
+# === Step 2: Captaincy data (reuses cached picks/live from Step 1 where available) ===
 captaincy_data = []
 
 for gw in range(1, 39):
     print(f"Fetching GW{gw} captain data...")
 
-    # Get player points once for the whole GW
-    live_url = f"https://fantasy.premierleague.com/api/event/{gw}/live/"
-    live_resp = requests.get(live_url)
-    if live_resp.status_code != 200:
+    player_points_map = get_live_points(gw)
+    if player_points_map is None:
         print(f"⚠️ Skipping GW{gw} - live data unavailable.")
         continue
 
-    player_points_map = {p['id']: p['stats']['total_points'] for p in live_resp.json()['elements']}
-
     for entry_id in entries:
-        picks_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/event/{gw}/picks/"
-        picks_resp = requests.get(picks_url)
-
-        if picks_resp.status_code != 200:
+        picks = get_picks(entry_id, gw)
+        if not picks:
             continue
 
-        picks = picks_resp.json().get('picks', [])
         captain_id = next((p['element'] for p in picks if p['is_captain']), None)
 
         if captain_id:
@@ -129,36 +163,41 @@ for gw in range(1, 39):
             team_name = entry_map[entry_id]['team_name']
             player_name = id_to_name.get(captain_id, '-')
             player_points = player_points_map.get(captain_id, '-')
-            triple_captain_used = "Yes" if gw == triple_captain_week_by_entry.get(entry_id) else "No"
+            tc_weeks = triple_captain_weeks_by_entry.get(entry_id, [])
+            if gw in tc_weeks:
+                triple_captain_used = "Yes"
+                # which of the (up to 2) uses this was, e.g. "1st" or "2nd"
+                triple_captain_instance = f"{tc_weeks.index(gw) + 1}"
+            else:
+                triple_captain_used = "No"
+                triple_captain_instance = "-"
 
-            # Add captaincy record
             captaincy_data.append({
                 'Manager Name': manager_name,
                 'Team Name': team_name,
                 'Gameweek': gw,
                 'Captain': player_name,
                 'Captain Points': player_points,
-                'Triple Captain Used': triple_captain_used
+                'Triple Captain Used': triple_captain_used,
+                'Triple Captain Instance': triple_captain_instance
             })
 
-print(f"✅")
+print("✅")
 df_captaincy = pd.DataFrame(captaincy_data)
 
 # === Step 3: Collect transfer data ===
 all_transfers = []
 
-print(f"Fetching transfer data...")
+print("Fetching transfer data...")
 for entry_id in entries:
-    transfers_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/transfers/"
-    resp = requests.get(transfers_url)
+    transfers = get_json(f"{BASE}/entry/{entry_id}/transfers/")
 
-    if resp.status_code == 200:
-        transfers = resp.json()
+    if transfers:
         for t in transfers:
             if t['element_in'] not in id_to_name or t['element_out'] not in id_to_name:
                 continue
 
-            free_hit_used = "Yes" if t['event'] == free_hit_by_entry.get(entry_id) else "No"
+            free_hit_used = "Yes" if t['event'] in free_hit_weeks_by_entry.get(entry_id, []) else "No"
 
             all_transfers.append({
                 'Manager Name': entry_map[entry_id]['manager_name'],
@@ -172,7 +211,7 @@ for entry_id in entries:
                 'In - Position': id_to_position[t['element_in']],
                 'Free Hit Active': free_hit_used
             })
-print(f"✅")
+print("✅")
 
 df_transfers = pd.DataFrame(all_transfers)
 
@@ -180,7 +219,7 @@ if not df_transfers.empty:
     df_transfers.sort_values(by=['Gameweek', 'Manager Name'], inplace=True)
 
 # === Step 4: Write to Excel ===
-print(f"Writing...")
+print("Writing...")
 file_name = "WWHALigaData.xlsx"
 
 with pd.ExcelWriter(file_name, engine="openpyxl") as writer:
