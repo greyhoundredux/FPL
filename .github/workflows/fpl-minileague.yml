@@ -47,14 +47,14 @@ jobs:
       - name: Upload CSV as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: fpl-picks-542663
-          path: ./fpl_league_542663_picks_wide.csv
+          name: fpl-picks-594257
+          path: ./fpl_league_594257_picks_wide.csv
           if-no-files-found: warn
 
       - name: Move output to data/ folder
         run: |
           mkdir -p data
-          mv -f fpl_league_542663_picks_wide.csv data/fpl_league_542663_picks_wide.csv
+          mv -f fpl_league_594257_picks_wide.csv data/fpl_league_594257_picks_wide.csv
 
       - name: Commit & push CSV to repo
         uses: stefanzweifel/git-auto-commit-action@v5
