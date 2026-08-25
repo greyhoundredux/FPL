@@ -1,316 +1,436 @@
 league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_Position
-542663,2705048,2640 Ballerz,Diyar Bakir,1,Gianluigi Donnarumma,MCI,GK
-542663,2705048,2640 Ballerz,Diyar Bakir,2,Cristhian Mosquera,ARS,DEF
-542663,2705048,2640 Ballerz,Diyar Bakir,3,Piero Hincapié,ARS,DEF
-542663,2705048,2640 Ballerz,Diyar Bakir,4,Daniel Muñoz Mejía,CRY,DEF
-542663,2705048,2640 Ballerz,Diyar Bakir,5,Jarrad Branthwaite,EVE,DEF
-542663,2705048,2640 Ballerz,Diyar Bakir,6,Declan Rice,ARS,MID
-542663,2705048,2640 Ballerz,Diyar Bakir,7,Florian Wirtz,LIV,MID
-542663,2705048,2640 Ballerz,Diyar Bakir,8,Dominik Szoboszlai,LIV,MID
-542663,2705048,2640 Ballerz,Diyar Bakir,9,James Maddison,TOT,MID
-542663,2705048,2640 Ballerz,Diyar Bakir,10,Erling Haaland,MCI,FWD
-542663,2705048,2640 Ballerz,Diyar Bakir,11,Richarlison de Andrade,TOT,FWD
-542663,2705048,2640 Ballerz,Diyar Bakir,12,Emiliano Martínez Romero,AVL,GK
-542663,2705048,2640 Ballerz,Diyar Bakir,13,Pedro Porro Sauceda,TOT,DEF
-542663,2705048,2640 Ballerz,Diyar Bakir,14,Omar Marmoush,MCI,FWD
-542663,2705048,2640 Ballerz,Diyar Bakir,15,Andrey Nascimento dos Santos,MUN,MID
-542663,2985783,Abdi123,Emir Gultekin,1,David Raya Martín,ARS,GK
-542663,2985783,Abdi123,Emir Gultekin,2,Maxence Lacroix,CHE,DEF
-542663,2985783,Abdi123,Emir Gultekin,3,Chris Richards,CRY,DEF
-542663,2985783,Abdi123,Emir Gultekin,4,Reece James,CHE,DEF
-542663,2985783,Abdi123,Emir Gultekin,5,Bruno Borges Fernandes,MUN,MID
-542663,2985783,Abdi123,Emir Gultekin,6,Bryan Mbeumo,MUN,MID
-542663,2985783,Abdi123,Emir Gultekin,7,Andrey Nascimento dos Santos,MUN,MID
-542663,2985783,Abdi123,Emir Gultekin,8,Christos Tzolis,ARS,MID
-542663,2985783,Abdi123,Emir Gultekin,9,Brian Brobbey,SUN,FWD
-542663,2985783,Abdi123,Emir Gultekin,10,João Pedro Junqueira de Jesus,CHE,FWD
-542663,2985783,Abdi123,Emir Gultekin,11,Erling Haaland,MCI,FWD
-542663,2985783,Abdi123,Emir Gultekin,12,Remi Matthews,CRY,GK
-542663,2985783,Abdi123,Emir Gultekin,13,Tyler Adams,BOU,MID
-542663,2985783,Abdi123,Emir Gultekin,14,Matt Targett,HUL,DEF
-542663,2985783,Abdi123,Emir Gultekin,15,Ben Davies,TOT,DEF
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,1,Bart Verbruggen,BHA,GK
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,2,Gabriel dos Santos Magalhães,ARS,DEF
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,3,Joško Gvardiol,MCI,DEF
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,4,Riccardo Calafiori,ARS,DEF
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,5,Issa Diop,IPS,DEF
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,6,Bukayo Saka,ARS,MID
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,7,Bryan Mbeumo,MUN,MID
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,8,Florian Wirtz,LIV,MID
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,9,Morgan Rogers,CHE,MID
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,10,Erling Haaland,MCI,FWD
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,11,João Pedro Junqueira de Jesus,CHE,FWD
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,12,Martin Dubravka,TOT,GK
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,13,Andrés García,AVL,DEF
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,14,George Hemmings,AVL,MID
-542663,7615235,Anfield Vestegnen IF,Mark Hartwich,15,Kaye Furo,BRE,FWD
-542663,232498,Brønlund FC,Minik Broenlund,1,Jordan Pickford,EVE,GK
-542663,232498,Brønlund FC,Minik Broenlund,2,Gabriel dos Santos Magalhães,ARS,DEF
-542663,232498,Brønlund FC,Minik Broenlund,3,Lewis Dunk,BHA,DEF
-542663,232498,Brønlund FC,Minik Broenlund,4,Milos Kerkez,LIV,DEF
-542663,232498,Brønlund FC,Minik Broenlund,5,Luke O'Nien,SUN,DEF
-542663,232498,Brønlund FC,Minik Broenlund,6,Issa Diop,IPS,DEF
-542663,232498,Brønlund FC,Minik Broenlund,7,Bryan Mbeumo,MUN,MID
-542663,232498,Brønlund FC,Minik Broenlund,8,Bruno Borges Fernandes,MUN,MID
-542663,232498,Brønlund FC,Minik Broenlund,9,Bukayo Saka,ARS,MID
-542663,232498,Brønlund FC,Minik Broenlund,10,Erling Haaland,MCI,FWD
-542663,232498,Brønlund FC,Minik Broenlund,11,Yoane Wissa,NEW,FWD
-542663,232498,Brønlund FC,Minik Broenlund,12,Martin Dubravka,TOT,GK
-542663,232498,Brønlund FC,Minik Broenlund,13,Will Hughes,CRY,MID
-542663,232498,Brønlund FC,Minik Broenlund,14,Ryan Yates,NFO,MID
-542663,232498,Brønlund FC,Minik Broenlund,15,Jonah Kusi-Asare,FUL,FWD
-542663,4888690,Empire FC,Josephine Lassen,1,David Raya Martín,ARS,GK
-542663,4888690,Empire FC,Josephine Lassen,2,Gabriel dos Santos Magalhães,ARS,DEF
-542663,4888690,Empire FC,Josephine Lassen,3,Nico O'Reilly,MCI,DEF
-542663,4888690,Empire FC,Josephine Lassen,4,Virgil van Dijk,LIV,DEF
-542663,4888690,Empire FC,Josephine Lassen,5,Antoine Semenyo,MCI,MID
-542663,4888690,Empire FC,Josephine Lassen,6,Morgan Gibbs-White,NFO,MID
-542663,4888690,Empire FC,Josephine Lassen,7,Declan Rice,ARS,MID
-542663,4888690,Empire FC,Josephine Lassen,8,Dominik Szoboszlai,LIV,MID
-542663,4888690,Empire FC,Josephine Lassen,9,Patrick Dorgu,MUN,MID
-542663,4888690,Empire FC,Josephine Lassen,10,Alexander Isak,LIV,FWD
-542663,4888690,Empire FC,Josephine Lassen,11,João Pedro Junqueira de Jesus,CHE,FWD
-542663,4888690,Empire FC,Josephine Lassen,12,Senne Lammens,MUN,GK
-542663,4888690,Empire FC,Josephine Lassen,13,Ryan Sessegnon,FUL,DEF
-542663,4888690,Empire FC,Josephine Lassen,14,Joško Gvardiol,MCI,DEF
-542663,4888690,Empire FC,Josephine Lassen,15,Chido Obi,MUN,FWD
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,1,Gianluigi Donnarumma,MCI,GK
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,2,Nico O'Reilly,MCI,DEF
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,3,Virgil van Dijk,LIV,DEF
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,4,Luke Shaw,MUN,DEF
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,5,Youri Tielemans,MUN,MID
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,6,Enzo Fernández,CHE,MID
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,7,Morgan Rogers,CHE,MID
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,8,Florian Wirtz,LIV,MID
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,9,Anton Stach,LEE,MID
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,10,Erling Haaland,MCI,FWD
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,11,Alexander Isak,LIV,FWD
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,12,Dillon Phillips,HUL,GK
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,13,Lewis Dunk,BHA,DEF
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,14,Pedro Porro Sauceda,TOT,DEF
-542663,8195198,FOOTBALL CLUB 67,Erray Gangster,15,Sindre Walle Egeli,IPS,FWD
-542663,1516352,Foden på speederen,Andreas Brunsvig,1,Senne Lammens,MUN,GK
-542663,1516352,Foden på speederen,Andreas Brunsvig,2,Joško Gvardiol,MCI,DEF
-542663,1516352,Foden på speederen,Andreas Brunsvig,3,Luka Vušković,BHA,DEF
-542663,1516352,Foden på speederen,Andreas Brunsvig,4,Luke Shaw,MUN,DEF
-542663,1516352,Foden på speederen,Andreas Brunsvig,5,Neco Williams,NFO,DEF
-542663,1516352,Foden på speederen,Andreas Brunsvig,6,Christos Tzolis,ARS,MID
-542663,1516352,Foden på speederen,Andreas Brunsvig,7,Bruno Borges Fernandes,MUN,MID
-542663,1516352,Foden på speederen,Andreas Brunsvig,8,Cole Palmer,CHE,MID
-542663,1516352,Foden på speederen,Andreas Brunsvig,9,Yasin Ayari,BHA,MID
-542663,1516352,Foden på speederen,Andreas Brunsvig,10,Erling Haaland,MCI,FWD
-542663,1516352,Foden på speederen,Andreas Brunsvig,11,Alexander Isak,LIV,FWD
-542663,1516352,Foden på speederen,Andreas Brunsvig,12,Martin Dubravka,TOT,GK
-542663,1516352,Foden på speederen,Andreas Brunsvig,13,Will Hughes,CRY,MID
-542663,1516352,Foden på speederen,Andreas Brunsvig,14,Bobby Thomas,COV,DEF
-542663,1516352,Foden på speederen,Andreas Brunsvig,15,Jonah Kusi-Asare,FUL,FWD
-542663,168529,Glückes Club,Lucas Glückstadt,1,David Raya Martín,ARS,GK
-542663,168529,Glückes Club,Lucas Glückstadt,2,Marc Guéhi,MCI,DEF
-542663,168529,Glückes Club,Lucas Glückstadt,3,Maxence Lacroix,CHE,DEF
-542663,168529,Glückes Club,Lucas Glückstadt,4,Virgil van Dijk,LIV,DEF
-542663,168529,Glückes Club,Lucas Glückstadt,5,Martin Ødegaard,ARS,MID
-542663,168529,Glückes Club,Lucas Glückstadt,6,Bryan Mbeumo,MUN,MID
-542663,168529,Glückes Club,Lucas Glückstadt,7,Declan Rice,ARS,MID
-542663,168529,Glückes Club,Lucas Glückstadt,8,Morgan Rogers,CHE,MID
-542663,168529,Glückes Club,Lucas Glückstadt,9,Iliman Ndiaye,EVE,MID
-542663,168529,Glückes Club,Lucas Glückstadt,10,Erling Haaland,MCI,FWD
-542663,168529,Glückes Club,Lucas Glückstadt,11,Dominic Calvert-Lewin,LEE,FWD
-542663,168529,Glückes Club,Lucas Glückstadt,12,Martin Dubravka,TOT,GK
-542663,168529,Glückes Club,Lucas Glückstadt,13,Pedro Porro Sauceda,TOT,DEF
-542663,168529,Glückes Club,Lucas Glückstadt,14,Luke O'Nien,SUN,DEF
-542663,168529,Glückes Club,Lucas Glückstadt,15,Chido Obi,MUN,FWD
-542663,4451648,JuliusB,Julius Brandstrup,1,Senne Lammens,MUN,GK
-542663,4451648,JuliusB,Julius Brandstrup,2,Gabriel dos Santos Magalhães,ARS,DEF
-542663,4451648,JuliusB,Julius Brandstrup,3,Riccardo Calafiori,ARS,DEF
-542663,4451648,JuliusB,Julius Brandstrup,4,Luke Shaw,MUN,DEF
-542663,4451648,JuliusB,Julius Brandstrup,5,Iliman Ndiaye,EVE,MID
-542663,4451648,JuliusB,Julius Brandstrup,6,Bryan Mbeumo,MUN,MID
-542663,4451648,JuliusB,Julius Brandstrup,7,Declan Rice,ARS,MID
-542663,4451648,JuliusB,Julius Brandstrup,8,Granit Xhaka,SUN,MID
-542663,4451648,JuliusB,Julius Brandstrup,9,Erling Haaland,MCI,FWD
-542663,4451648,JuliusB,Julius Brandstrup,10,João Pedro Junqueira de Jesus,CHE,FWD
-542663,4451648,JuliusB,Julius Brandstrup,11,Brian Brobbey,SUN,FWD
-542663,4451648,JuliusB,Julius Brandstrup,12,Emiliano Martínez Romero,AVL,GK
-542663,4451648,JuliusB,Julius Brandstrup,13,Issa Diop,IPS,DEF
-542663,4451648,JuliusB,Julius Brandstrup,14,Enzo Le Fée,SUN,MID
-542663,4451648,JuliusB,Julius Brandstrup,15,James Tarkowski,EVE,DEF
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,1,Antonín Kinský,TOT,GK
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,2,Cristhian Mosquera,ARS,DEF
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,3,Neco Williams,NFO,DEF
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,4,Luke Shaw,MUN,DEF
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,5,Bruno Borges Fernandes,MUN,MID
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,6,Dominik Szoboszlai,LIV,MID
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,7,Bryan Mbeumo,MUN,MID
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,8,Iliman Ndiaye,EVE,MID
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,9,Erling Haaland,MCI,FWD
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,10,Dominic Calvert-Lewin,LEE,FWD
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,11,João Pedro Junqueira de Jesus,CHE,FWD
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,12,Alex Palmer,IPS,GK
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,13,Pascal Groß,BHA,MID
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,14,Milan van Ewijk,COV,DEF
-542663,3305952,"Kig op, jeg vinker!",Luka frydensberg,15,Luka Vušković,BHA,DEF
-542663,2904454,Milad7291,Milad Alkhakani,1,David Raya Martín,ARS,GK
-542663,2904454,Milad7291,Milad Alkhakani,2,Maxence Lacroix,CHE,DEF
-542663,2904454,Milad7291,Milad Alkhakani,3,Matt Targett,HUL,DEF
-542663,2904454,Milad7291,Milad Alkhakani,4,Joško Gvardiol,MCI,DEF
-542663,2904454,Milad7291,Milad Alkhakani,5,Bryan Mbeumo,MUN,MID
-542663,2904454,Milad7291,Milad Alkhakani,6,Andrey Nascimento dos Santos,MUN,MID
-542663,2904454,Milad7291,Milad Alkhakani,7,Bruno Borges Fernandes,MUN,MID
-542663,2904454,Milad7291,Milad Alkhakani,8,Christos Tzolis,ARS,MID
-542663,2904454,Milad7291,Milad Alkhakani,9,João Pedro Junqueira de Jesus,CHE,FWD
-542663,2904454,Milad7291,Milad Alkhakani,10,Erling Haaland,MCI,FWD
-542663,2904454,Milad7291,Milad Alkhakani,11,Brian Brobbey,SUN,FWD
-542663,2904454,Milad7291,Milad Alkhakani,12,Remi Matthews,CRY,GK
-542663,2904454,Milad7291,Milad Alkhakani,13,Pedro Porro Sauceda,TOT,DEF
-542663,2904454,Milad7291,Milad Alkhakani,14,Luke O'Nien,SUN,DEF
-542663,2904454,Milad7291,Milad Alkhakani,15,Dário Luís Essugo,CHE,MID
-542663,8246154,Milanfc,Milan badri rahm,1,Gianluigi Donnarumma,MCI,GK
-542663,8246154,Milanfc,Milan badri rahm,2,Virgil van Dijk,LIV,DEF
-542663,8246154,Milanfc,Milan badri rahm,3,Luke Shaw,MUN,DEF
-542663,8246154,Milanfc,Milan badri rahm,4,Gabriel dos Santos Magalhães,ARS,DEF
-542663,8246154,Milanfc,Milan badri rahm,5,Daniel Ballard,SUN,DEF
-542663,8246154,Milanfc,Milan badri rahm,6,Marcus Rashford,MUN,MID
-542663,8246154,Milanfc,Milan badri rahm,7,Martin Ødegaard,ARS,MID
-542663,8246154,Milanfc,Milan badri rahm,8,Cody Gakpo,LIV,MID
-542663,8246154,Milanfc,Milan badri rahm,9,Enzo Fernández,CHE,MID
-542663,8246154,Milanfc,Milan badri rahm,10,Alexander Isak,LIV,FWD
-542663,8246154,Milanfc,Milan badri rahm,11,João Pedro Junqueira de Jesus,CHE,FWD
-542663,8246154,Milanfc,Milan badri rahm,12,Jordan Pickford,EVE,GK
-542663,8246154,Milanfc,Milan badri rahm,13,Viktor Gyökeres,ARS,FWD
-542663,8246154,Milanfc,Milan badri rahm,14,Maxence Lacroix,CHE,DEF
-542663,8246154,Milanfc,Milan badri rahm,15,Iliman Ndiaye,EVE,MID
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,1,Caoimhín Kelleher,BRE,GK
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,2,Nathan Collins,BRE,DEF
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,3,Milos Kerkez,LIV,DEF
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,4,Reece James,CHE,DEF
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,5,Daniel Muñoz Mejía,CRY,DEF
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,6,Rayan Cherki,MCI,MID
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,7,Eberechi Eze,ARS,MID
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,8,Martin Ødegaard,ARS,MID
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,9,Victor Munoz,LIV,MID
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,10,Kiernan Dewsbury-Hall,EVE,MID
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,11,Erling Haaland,MCI,FWD
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,12,Ben Wilson,COV,GK
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,13,Leny Yoro,MUN,DEF
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,14,Ollie Watkins,AVL,FWD
-542663,2707851,Ottoman Eagles FC,İsrafil Çevik,15,Jean-Philippe Mateta,CRY,FWD
-542663,820397,TOXIC DEVILS,Marck Lindorff,1,Senne Lammens,MUN,GK
-542663,820397,TOXIC DEVILS,Marck Lindorff,2,Luke Shaw,MUN,DEF
-542663,820397,TOXIC DEVILS,Marck Lindorff,3,Cristhian Mosquera,ARS,DEF
-542663,820397,TOXIC DEVILS,Marck Lindorff,4,Virgil van Dijk,LIV,DEF
-542663,820397,TOXIC DEVILS,Marck Lindorff,5,Dominik Szoboszlai,LIV,MID
-542663,820397,TOXIC DEVILS,Marck Lindorff,6,Martin Ødegaard,ARS,MID
-542663,820397,TOXIC DEVILS,Marck Lindorff,7,Bruno Borges Fernandes,MUN,MID
-542663,820397,TOXIC DEVILS,Marck Lindorff,8,Enzo Fernández,CHE,MID
-542663,820397,TOXIC DEVILS,Marck Lindorff,9,Alexis Mac Allister,LIV,MID
-542663,820397,TOXIC DEVILS,Marck Lindorff,10,João Pedro Junqueira de Jesus,CHE,FWD
-542663,820397,TOXIC DEVILS,Marck Lindorff,11,Erling Haaland,MCI,FWD
-542663,820397,TOXIC DEVILS,Marck Lindorff,12,Dillon Phillips,HUL,GK
-542663,820397,TOXIC DEVILS,Marck Lindorff,13,Milan van Ewijk,COV,DEF
-542663,820397,TOXIC DEVILS,Marck Lindorff,14,Neco Williams,NFO,DEF
-542663,820397,TOXIC DEVILS,Marck Lindorff,15,Sindre Walle Egeli,IPS,FWD
-542663,4234245,Turbobias,Tobias Venneberg,1,Senne Lammens,MUN,GK
-542663,4234245,Turbobias,Tobias Venneberg,2,Cristhian Mosquera,ARS,DEF
-542663,4234245,Turbobias,Tobias Venneberg,3,Luke Shaw,MUN,DEF
-542663,4234245,Turbobias,Tobias Venneberg,4,Neco Williams,NFO,DEF
-542663,4234245,Turbobias,Tobias Venneberg,5,Iliman Ndiaye,EVE,MID
-542663,4234245,Turbobias,Tobias Venneberg,6,Morgan Rogers,CHE,MID
-542663,4234245,Turbobias,Tobias Venneberg,7,Dominik Szoboszlai,LIV,MID
-542663,4234245,Turbobias,Tobias Venneberg,8,Bruno Borges Fernandes,MUN,MID
-542663,4234245,Turbobias,Tobias Venneberg,9,Brian Brobbey,SUN,FWD
-542663,4234245,Turbobias,Tobias Venneberg,10,Erling Haaland,MCI,FWD
-542663,4234245,Turbobias,Tobias Venneberg,11,João Pedro Junqueira de Jesus,CHE,FWD
-542663,4234245,Turbobias,Tobias Venneberg,12,Antonín Kinský,TOT,GK
-542663,4234245,Turbobias,Tobias Venneberg,13,Tyrick Mitchell,CRY,DEF
-542663,4234245,Turbobias,Tobias Venneberg,14,Jan Paul van Hecke,TOT,DEF
-542663,4234245,Turbobias,Tobias Venneberg,15,Will Hughes,CRY,MID
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,1,David Raya Martín,ARS,GK
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,2,Riccardo Calafiori,ARS,DEF
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,3,Marc Guéhi,MCI,DEF
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,4,Harry Maguire,MUN,DEF
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,5,Luke Shaw,MUN,DEF
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,6,Bukayo Saka,ARS,MID
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,7,Antoine Semenyo,MCI,MID
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,8,Matheus Santos Carneiro da Cunha,MUN,MID
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,9,João Pedro Junqueira de Jesus,CHE,FWD
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,10,Erling Haaland,MCI,FWD
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,11,Brian Brobbey,SUN,FWD
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,12,Antonín Kinský,TOT,GK
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,13,Kasey McAteer,IPS,MID
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,14,Regan Slater,HUL,MID
-542663,2758594,Why Ayew Running?,Lucas Eierstrand,15,Michael Kayode,BRE,DEF
-542663,8122858,Young Shooters,Mirac Erman,1,Jordan Pickford,EVE,GK
-542663,8122858,Young Shooters,Mirac Erman,2,Nico O'Reilly,MCI,DEF
-542663,8122858,Young Shooters,Mirac Erman,3,Virgil van Dijk,LIV,DEF
-542663,8122858,Young Shooters,Mirac Erman,4,Maxence Lacroix,CHE,DEF
-542663,8122858,Young Shooters,Mirac Erman,5,Marcos Senesi Barón,TOT,DEF
-542663,8122858,Young Shooters,Mirac Erman,6,Nikola Milenković,NFO,DEF
-542663,8122858,Young Shooters,Mirac Erman,7,Morgan Rogers,CHE,MID
-542663,8122858,Young Shooters,Mirac Erman,8,Cody Gakpo,LIV,MID
-542663,8122858,Young Shooters,Mirac Erman,9,Phil Foden,MCI,MID
-542663,8122858,Young Shooters,Mirac Erman,10,Enzo Fernández,CHE,MID
-542663,8122858,Young Shooters,Mirac Erman,11,Alexander Isak,LIV,FWD
-542663,8122858,Young Shooters,Mirac Erman,12,Jason Steele,BHA,GK
-542663,8122858,Young Shooters,Mirac Erman,13,Ollie Watkins,AVL,FWD
-542663,8122858,Young Shooters,Mirac Erman,14,Ismaïla Sarr,CRY,MID
-542663,8122858,Young Shooters,Mirac Erman,15,Igor Thiago Nascimento Rodrigues,BRE,FWD
-542663,4799157,abdi team peje,Mathias Persson,1,Senne Lammens,MUN,GK
-542663,4799157,abdi team peje,Mathias Persson,2,Gabriel dos Santos Magalhães,ARS,DEF
-542663,4799157,abdi team peje,Mathias Persson,3,Jeremie Frimpong,LIV,DEF
-542663,4799157,abdi team peje,Mathias Persson,4,Cristhian Mosquera,ARS,DEF
-542663,4799157,abdi team peje,Mathias Persson,5,Takehiro Tomiyasu,CRY,DEF
-542663,4799157,abdi team peje,Mathias Persson,6,Dominik Szoboszlai,LIV,MID
-542663,4799157,abdi team peje,Mathias Persson,7,Declan Rice,ARS,MID
-542663,4799157,abdi team peje,Mathias Persson,8,Matheus Santos Carneiro da Cunha,MUN,MID
-542663,4799157,abdi team peje,Mathias Persson,9,Morgan Rogers,CHE,MID
-542663,4799157,abdi team peje,Mathias Persson,10,Dominic Calvert-Lewin,LEE,FWD
-542663,4799157,abdi team peje,Mathias Persson,11,Erling Haaland,MCI,FWD
-542663,4799157,abdi team peje,Mathias Persson,12,Bernd Leno,FUL,GK
-542663,4799157,abdi team peje,Mathias Persson,13,Michael Keane,EVE,DEF
-542663,4799157,abdi team peje,Mathias Persson,14,Matt Crooks,HUL,MID
-542663,4799157,abdi team peje,Mathias Persson,15,Chris Wood,NFO,FWD
-542663,2713934,abi 2000,Dewran Robin koc,1,Antonín Kinský,TOT,GK
-542663,2713934,abi 2000,Dewran Robin koc,2,Harry Maguire,MUN,DEF
-542663,2713934,abi 2000,Dewran Robin koc,3,Lewis Hall,NEW,DEF
-542663,2713934,abi 2000,Dewran Robin koc,4,Jan Paul van Hecke,TOT,DEF
-542663,2713934,abi 2000,Dewran Robin koc,5,Daniel Muñoz Mejía,CRY,DEF
-542663,2713934,abi 2000,Dewran Robin koc,6,Tyrick Mitchell,CRY,DEF
-542663,2713934,abi 2000,Dewran Robin koc,7,Rayan Cherki,MCI,MID
-542663,2713934,abi 2000,Dewran Robin koc,8,Cole Palmer,CHE,MID
-542663,2713934,abi 2000,Dewran Robin koc,9,Iliman Ndiaye,EVE,MID
-542663,2713934,abi 2000,Dewran Robin koc,10,Erling Haaland,MCI,FWD
-542663,2713934,abi 2000,Dewran Robin koc,11,João Pedro Junqueira de Jesus,CHE,FWD
-542663,2713934,abi 2000,Dewran Robin koc,12,Alex Palmer,IPS,GK
-542663,2713934,abi 2000,Dewran Robin koc,13,Ismaïla Sarr,CRY,MID
-542663,2713934,abi 2000,Dewran Robin koc,14,Viktor Gyökeres,ARS,FWD
-542663,2713934,abi 2000,Dewran Robin koc,15,Elliot Anderson,MCI,MID
-542663,2966396,caicedo's cash,Peter Roland,1,David Raya Martín,ARS,GK
-542663,2966396,caicedo's cash,Peter Roland,2,Nico O'Reilly,MCI,DEF
-542663,2966396,caicedo's cash,Peter Roland,3,Gabriel dos Santos Magalhães,ARS,DEF
-542663,2966396,caicedo's cash,Peter Roland,4,Marc Guéhi,MCI,DEF
-542663,2966396,caicedo's cash,Peter Roland,5,Virgil van Dijk,LIV,DEF
-542663,2966396,caicedo's cash,Peter Roland,6,Bruno Borges Fernandes,MUN,MID
-542663,2966396,caicedo's cash,Peter Roland,7,Morgan Rogers,CHE,MID
-542663,2966396,caicedo's cash,Peter Roland,8,Sandro Tonali,TOT,MID
-542663,2966396,caicedo's cash,Peter Roland,9,Bryan Mbeumo,MUN,MID
-542663,2966396,caicedo's cash,Peter Roland,10,Sindre Walle Egeli,IPS,FWD
-542663,2966396,caicedo's cash,Peter Roland,11,Richarlison de Andrade,TOT,FWD
-542663,2966396,caicedo's cash,Peter Roland,12,Caoimhín Kelleher,BRE,GK
-542663,2966396,caicedo's cash,Peter Roland,13,Pedro Porro Sauceda,TOT,DEF
-542663,2966396,caicedo's cash,Peter Roland,14,Moisés Caicedo Corozo,CHE,MID
-542663,2966396,caicedo's cash,Peter Roland,15,Viktor Gyökeres,ARS,FWD
-542663,4834869,moneyteam,Adam Ebrahim,1,Bernd Leno,FUL,GK
-542663,4834869,moneyteam,Adam Ebrahim,2,Tyrick Mitchell,CRY,DEF
-542663,4834869,moneyteam,Adam Ebrahim,3,Piero Hincapié,ARS,DEF
-542663,4834869,moneyteam,Adam Ebrahim,4,Maxence Lacroix,CHE,DEF
-542663,4834869,moneyteam,Adam Ebrahim,5,Jeremie Frimpong,LIV,DEF
-542663,4834869,moneyteam,Adam Ebrahim,6,Martin Ødegaard,ARS,MID
-542663,4834869,moneyteam,Adam Ebrahim,7,Enzo Fernández,CHE,MID
-542663,4834869,moneyteam,Adam Ebrahim,8,Rayan Cherki,MCI,MID
-542663,4834869,moneyteam,Adam Ebrahim,9,Marcus Rashford,MUN,MID
-542663,4834869,moneyteam,Adam Ebrahim,10,Mikel Merino Zazón,ARS,MID
-542663,4834869,moneyteam,Adam Ebrahim,11,Brian Brobbey,SUN,FWD
-542663,4834869,moneyteam,Adam Ebrahim,12,Jordan Pickford,EVE,GK
-542663,4834869,moneyteam,Adam Ebrahim,13,Lisandro Martínez,MUN,DEF
-542663,4834869,moneyteam,Adam Ebrahim,14,Ollie Watkins,AVL,FWD
-542663,4834869,moneyteam,Adam Ebrahim,15,Erling Haaland,MCI,FWD
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,1,Antonín Kinský,TOT,GK
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,2,Harry Maguire,MUN,DEF
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,3,Riccardo Calafiori,ARS,DEF
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,4,Joško Gvardiol,MCI,DEF
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,5,Antoine Semenyo,MCI,MID
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,6,Bryan Mbeumo,MUN,MID
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,7,Dominik Szoboszlai,LIV,MID
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,8,Bruno Borges Fernandes,MUN,MID
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,9,Christos Tzolis,ARS,MID
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,10,Alexander Isak,LIV,FWD
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,12,Martin Dubravka,TOT,GK
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,13,Igor Jesus Maciel da Cruz,NFO,FWD
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,14,Marco Palestra,CHE,DEF
+594257,1998186,Ajax Hamsterdam,Alex Stephenson,15,Tarik Muharemović,LEE,DEF
+594257,8213957,Ciaran's Team,Ciaran Lewis,1,Caoimhín Kelleher,BRE,GK
+594257,8213957,Ciaran's Team,Ciaran Lewis,2,Marc Guéhi,MCI,DEF
+594257,8213957,Ciaran's Team,Ciaran Lewis,3,Virgil van Dijk,LIV,DEF
+594257,8213957,Ciaran's Team,Ciaran Lewis,4,Daniel Muñoz Mejía,CRY,DEF
+594257,8213957,Ciaran's Team,Ciaran Lewis,5,Morgan Gibbs-White,NFO,MID
+594257,8213957,Ciaran's Team,Ciaran Lewis,6,Declan Rice,ARS,MID
+594257,8213957,Ciaran's Team,Ciaran Lewis,7,Morgan Rogers,CHE,MID
+594257,8213957,Ciaran's Team,Ciaran Lewis,8,Marcus Tavernier,BOU,MID
+594257,8213957,Ciaran's Team,Ciaran Lewis,9,Dominic Calvert-Lewin,LEE,FWD
+594257,8213957,Ciaran's Team,Ciaran Lewis,10,Erling Haaland,MCI,FWD
+594257,8213957,Ciaran's Team,Ciaran Lewis,11,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,8213957,Ciaran's Team,Ciaran Lewis,12,Martin Dubravka,TOT,GK
+594257,8213957,Ciaran's Team,Ciaran Lewis,13,Matty Cash,AVL,DEF
+594257,8213957,Ciaran's Team,Ciaran Lewis,14,Ethan Ampadu,LEE,MID
+594257,8213957,Ciaran's Team,Ciaran Lewis,15,Ferdi Kadıoğlu,BHA,DEF
+594257,8206489,Dantastic Blue Army,Dan Huskings,1,Nick Pope,NEW,GK
+594257,8206489,Dantastic Blue Army,Dan Huskings,2,Adrien Truffert,BOU,DEF
+594257,8206489,Dantastic Blue Army,Dan Huskings,3,Jan Paul van Hecke,TOT,DEF
+594257,8206489,Dantastic Blue Army,Dan Huskings,4,Reece James,CHE,DEF
+594257,8206489,Dantastic Blue Army,Dan Huskings,5,Jacob Greaves,IPS,DEF
+594257,8206489,Dantastic Blue Army,Dan Huskings,6,Bruno Borges Fernandes,MUN,MID
+594257,8206489,Dantastic Blue Army,Dan Huskings,7,Martin Ødegaard,ARS,MID
+594257,8206489,Dantastic Blue Army,Dan Huskings,8,Dominik Szoboszlai,LIV,MID
+594257,8206489,Dantastic Blue Army,Dan Huskings,9,Erling Haaland,MCI,FWD
+594257,8206489,Dantastic Blue Army,Dan Huskings,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,8206489,Dantastic Blue Army,Dan Huskings,11,Dominic Calvert-Lewin,LEE,FWD
+594257,8206489,Dantastic Blue Army,Dan Huskings,12,Martin Dubravka,TOT,GK
+594257,8206489,Dantastic Blue Army,Dan Huskings,13,Callum Hudson-Odoi,NFO,MID
+594257,8206489,Dantastic Blue Army,Dan Huskings,14,Granit Xhaka,SUN,MID
+594257,8206489,Dantastic Blue Army,Dan Huskings,15,Lewis Hall,NEW,DEF
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,1,Gianluigi Donnarumma,MCI,GK
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,2,James Tarkowski,EVE,DEF
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,3,Virgil van Dijk,LIV,DEF
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,4,Nico O'Reilly,MCI,DEF
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,5,Bruno Borges Fernandes,MUN,MID
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,6,Elliot Anderson,MCI,MID
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,7,Sandro Tonali,TOT,MID
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,8,Mateus Fernandes,TOT,MID
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,9,Morgan Gibbs-White,NFO,MID
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,11,Dominic Calvert-Lewin,LEE,FWD
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,12,Caoimhín Kelleher,BRE,GK
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,13,Pedro Porro Sauceda,TOT,DEF
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,14,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,2127082,Dejan Kuluspursy,Simon Pickthall,15,Adrien Truffert,BOU,DEF
+594257,6955128,Dunning Krugger FC,The Gareth,1,Bart Verbruggen,BHA,GK
+594257,6955128,Dunning Krugger FC,The Gareth,2,Marcos Senesi Barón,TOT,DEF
+594257,6955128,Dunning Krugger FC,The Gareth,3,James Tarkowski,EVE,DEF
+594257,6955128,Dunning Krugger FC,The Gareth,4,Virgil van Dijk,LIV,DEF
+594257,6955128,Dunning Krugger FC,The Gareth,5,Rúben dos Santos Gato Alves Dias,MCI,DEF
+594257,6955128,Dunning Krugger FC,The Gareth,6,Bukayo Saka,ARS,MID
+594257,6955128,Dunning Krugger FC,The Gareth,7,Morgan Gibbs-White,NFO,MID
+594257,6955128,Dunning Krugger FC,The Gareth,8,Bryan Mbeumo,MUN,MID
+594257,6955128,Dunning Krugger FC,The Gareth,9,Phil Foden,MCI,MID
+594257,6955128,Dunning Krugger FC,The Gareth,10,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,6955128,Dunning Krugger FC,The Gareth,11,Dominic Calvert-Lewin,LEE,FWD
+594257,6955128,Dunning Krugger FC,The Gareth,12,Martin Dubravka,TOT,GK
+594257,6955128,Dunning Krugger FC,The Gareth,13,Nordi Mukiele,SUN,DEF
+594257,6955128,Dunning Krugger FC,The Gareth,14,Dominik Szoboszlai,LIV,MID
+594257,6955128,Dunning Krugger FC,The Gareth,15,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3233461,Expected Letdowns,Ieuan Davies,1,Senne Lammens,MUN,GK
+594257,3233461,Expected Letdowns,Ieuan Davies,2,Jeremie Frimpong,LIV,DEF
+594257,3233461,Expected Letdowns,Ieuan Davies,3,Gabriel dos Santos Magalhães,ARS,DEF
+594257,3233461,Expected Letdowns,Ieuan Davies,4,Nico O'Reilly,MCI,DEF
+594257,3233461,Expected Letdowns,Ieuan Davies,5,Dominik Szoboszlai,LIV,MID
+594257,3233461,Expected Letdowns,Ieuan Davies,6,Matheus Santos Carneiro da Cunha,MUN,MID
+594257,3233461,Expected Letdowns,Ieuan Davies,7,Antoine Semenyo,MCI,MID
+594257,3233461,Expected Letdowns,Ieuan Davies,8,Bruno Borges Fernandes,MUN,MID
+594257,3233461,Expected Letdowns,Ieuan Davies,9,Kai Havertz,ARS,FWD
+594257,3233461,Expected Letdowns,Ieuan Davies,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3233461,Expected Letdowns,Ieuan Davies,11,Richarlison de Andrade,TOT,FWD
+594257,3233461,Expected Letdowns,Ieuan Davies,12,Jason Steele,BHA,GK
+594257,3233461,Expected Letdowns,Ieuan Davies,13,Andrew Robertson,TOT,DEF
+594257,3233461,Expected Letdowns,Ieuan Davies,14,Pedro Porro Sauceda,TOT,DEF
+594257,3233461,Expected Letdowns,Ieuan Davies,15,Ryan Yates,NFO,MID
+594257,8169211,Game of Jones,jamie jones,1,Bart Verbruggen,BHA,GK
+594257,8169211,Game of Jones,jamie jones,2,Riccardo Calafiori,ARS,DEF
+594257,8169211,Game of Jones,jamie jones,3,Neco Williams,NFO,DEF
+594257,8169211,Game of Jones,jamie jones,4,Harry Maguire,MUN,DEF
+594257,8169211,Game of Jones,jamie jones,5,Christos Tzolis,ARS,MID
+594257,8169211,Game of Jones,jamie jones,6,Enzo Le Fée,SUN,MID
+594257,8169211,Game of Jones,jamie jones,7,Bryan Mbeumo,MUN,MID
+594257,8169211,Game of Jones,jamie jones,8,Florian Wirtz,LIV,MID
+594257,8169211,Game of Jones,jamie jones,9,Antoine Semenyo,MCI,MID
+594257,8169211,Game of Jones,jamie jones,10,Erling Haaland,MCI,FWD
+594257,8169211,Game of Jones,jamie jones,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,8169211,Game of Jones,jamie jones,12,Antonín Kinský,TOT,GK
+594257,8169211,Game of Jones,jamie jones,13,Dominic Calvert-Lewin,LEE,FWD
+594257,8169211,Game of Jones,jamie jones,14,Maxim De Cuyper,BHA,DEF
+594257,8169211,Game of Jones,jamie jones,15,Dara O'Shea,IPS,DEF
+594257,414971,GoEzEoNmE,Leah Jenkins,1,David Raya Martín,ARS,GK
+594257,414971,GoEzEoNmE,Leah Jenkins,2,Luke Shaw,MUN,DEF
+594257,414971,GoEzEoNmE,Leah Jenkins,3,Riccardo Calafiori,ARS,DEF
+594257,414971,GoEzEoNmE,Leah Jenkins,4,Virgil van Dijk,LIV,DEF
+594257,414971,GoEzEoNmE,Leah Jenkins,5,Harry Maguire,MUN,DEF
+594257,414971,GoEzEoNmE,Leah Jenkins,6,Morgan Gibbs-White,NFO,MID
+594257,414971,GoEzEoNmE,Leah Jenkins,7,Bruno Borges Fernandes,MUN,MID
+594257,414971,GoEzEoNmE,Leah Jenkins,8,Marcus Tavernier,BOU,MID
+594257,414971,GoEzEoNmE,Leah Jenkins,9,Dominik Szoboszlai,LIV,MID
+594257,414971,GoEzEoNmE,Leah Jenkins,10,Dominic Calvert-Lewin,LEE,FWD
+594257,414971,GoEzEoNmE,Leah Jenkins,11,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,414971,GoEzEoNmE,Leah Jenkins,12,Đorđe Petrović,BOU,GK
+594257,414971,GoEzEoNmE,Leah Jenkins,13,Pedro Porro Sauceda,TOT,DEF
+594257,414971,GoEzEoNmE,Leah Jenkins,14,Ismaïla Sarr,CRY,MID
+594257,414971,GoEzEoNmE,Leah Jenkins,15,Ollie Watkins,AVL,FWD
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,1,Robert Lynch Sánchez,CHE,GK
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,2,Malick Thiaw,NEW,DEF
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,3,Luke Shaw,MUN,DEF
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,4,Riccardo Calafiori,ARS,DEF
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,5,Matheus Santos Carneiro da Cunha,MUN,MID
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,6,Declan Rice,ARS,MID
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,7,Victor Munoz,LIV,MID
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,8,Antoine Semenyo,MCI,MID
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,9,Erling Haaland,MCI,FWD
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,10,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,12,Bernd Leno,FUL,GK
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,13,Ferdi Kadıoğlu,BHA,DEF
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,14,Tyrick Mitchell,CRY,DEF
+594257,3088727,Haa Haa Haalanderers,Seema Thomas,15,Noah Sadiki,SUN,MID
+594257,3554738,Hardly Athletic,Jen Barton,1,Antonín Kinský,TOT,GK
+594257,3554738,Hardly Athletic,Jen Barton,2,Virgil van Dijk,LIV,DEF
+594257,3554738,Hardly Athletic,Jen Barton,3,Luke Shaw,MUN,DEF
+594257,3554738,Hardly Athletic,Jen Barton,4,Riccardo Calafiori,ARS,DEF
+594257,3554738,Hardly Athletic,Jen Barton,5,Bruno Borges Fernandes,MUN,MID
+594257,3554738,Hardly Athletic,Jen Barton,6,Dominik Szoboszlai,LIV,MID
+594257,3554738,Hardly Athletic,Jen Barton,7,Enzo Le Fée,SUN,MID
+594257,3554738,Hardly Athletic,Jen Barton,8,Christos Tzolis,ARS,MID
+594257,3554738,Hardly Athletic,Jen Barton,9,Dominic Calvert-Lewin,LEE,FWD
+594257,3554738,Hardly Athletic,Jen Barton,10,Erling Haaland,MCI,FWD
+594257,3554738,Hardly Athletic,Jen Barton,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3554738,Hardly Athletic,Jen Barton,12,Jason Steele,BHA,GK
+594257,3554738,Hardly Athletic,Jen Barton,13,Marcos Senesi Barón,TOT,DEF
+594257,3554738,Hardly Athletic,Jen Barton,14,Will Hughes,CRY,MID
+594257,3554738,Hardly Athletic,Jen Barton,15,Issa Diop,IPS,DEF
+594257,1939805,Iraola Coaster,Gareth Davis,1,David Raya Martín,ARS,GK
+594257,1939805,Iraola Coaster,Gareth Davis,2,Neco Williams,NFO,DEF
+594257,1939805,Iraola Coaster,Gareth Davis,3,Tarik Muharemović,LEE,DEF
+594257,1939805,Iraola Coaster,Gareth Davis,4,Cristhian Mosquera,ARS,DEF
+594257,1939805,Iraola Coaster,Gareth Davis,5,Jeremy Jacquet,LIV,DEF
+594257,1939805,Iraola Coaster,Gareth Davis,6,Dominik Szoboszlai,LIV,MID
+594257,1939805,Iraola Coaster,Gareth Davis,7,Phil Foden,MCI,MID
+594257,1939805,Iraola Coaster,Gareth Davis,8,Bryan Mbeumo,MUN,MID
+594257,1939805,Iraola Coaster,Gareth Davis,9,Dominic Calvert-Lewin,LEE,FWD
+594257,1939805,Iraola Coaster,Gareth Davis,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,1939805,Iraola Coaster,Gareth Davis,11,Erling Haaland,MCI,FWD
+594257,1939805,Iraola Coaster,Gareth Davis,12,Martin Dubravka,TOT,GK
+594257,1939805,Iraola Coaster,Gareth Davis,13,Bruno Guimarães Rodriguez Moura,ARS,MID
+594257,1939805,Iraola Coaster,Gareth Davis,14,Marcos Senesi Barón,TOT,DEF
+594257,1939805,Iraola Coaster,Gareth Davis,15,Mamadou Sangaré,BRE,MID
+594257,323474,Isak at this game,Luke Morris,1,Antonín Kinský,TOT,GK
+594257,323474,Isak at this game,Luke Morris,2,Tarik Muharemović,LEE,DEF
+594257,323474,Isak at this game,Luke Morris,3,Riccardo Calafiori,ARS,DEF
+594257,323474,Isak at this game,Luke Morris,4,Benjamin White,ARS,DEF
+594257,323474,Isak at this game,Luke Morris,5,Bryan Mbeumo,MUN,MID
+594257,323474,Isak at this game,Luke Morris,6,Christos Tzolis,ARS,MID
+594257,323474,Isak at this game,Luke Morris,7,Pascal Groß,BHA,MID
+594257,323474,Isak at this game,Luke Morris,8,Bruno Borges Fernandes,MUN,MID
+594257,323474,Isak at this game,Luke Morris,9,Erling Haaland,MCI,FWD
+594257,323474,Isak at this game,Luke Morris,10,Brian Brobbey,SUN,FWD
+594257,323474,Isak at this game,Luke Morris,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,323474,Isak at this game,Luke Morris,12,Bart Verbruggen,BHA,GK
+594257,323474,Isak at this game,Luke Morris,13,Harry Maguire,MUN,DEF
+594257,323474,Isak at this game,Luke Morris,14,Regan Slater,HUL,MID
+594257,323474,Isak at this game,Luke Morris,15,Issa Diop,IPS,DEF
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,1,David Raya Martín,ARS,GK
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,2,Jan Paul van Hecke,TOT,DEF
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,3,Riccardo Calafiori,ARS,DEF
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,4,Neco Williams,NFO,DEF
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,5,Morgan Rogers,CHE,MID
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,6,Kiernan Dewsbury-Hall,EVE,MID
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,7,Bryan Mbeumo,MUN,MID
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,8,Florian Wirtz,LIV,MID
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,9,Christos Tzolis,ARS,MID
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,10,Erling Haaland,MCI,FWD
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,11,Alexander Isak,LIV,FWD
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,12,Martin Dubravka,TOT,GK
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,13,Brian Brobbey,SUN,FWD
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,14,Issa Diop,IPS,DEF
+594257,6831497,Lana Del Gavin Rae,Kieran O'Brien,15,Milan van Ewijk,COV,DEF
+594257,528567,Los Porros Hermanos,Isaac Parr,1,Antonín Kinský,TOT,GK
+594257,528567,Los Porros Hermanos,Isaac Parr,2,Maxim De Cuyper,BHA,DEF
+594257,528567,Los Porros Hermanos,Isaac Parr,3,Luke Shaw,MUN,DEF
+594257,528567,Los Porros Hermanos,Isaac Parr,4,Riccardo Calafiori,ARS,DEF
+594257,528567,Los Porros Hermanos,Isaac Parr,5,Christos Tzolis,ARS,MID
+594257,528567,Los Porros Hermanos,Isaac Parr,6,Bruno Borges Fernandes,MUN,MID
+594257,528567,Los Porros Hermanos,Isaac Parr,7,Florian Wirtz,LIV,MID
+594257,528567,Los Porros Hermanos,Isaac Parr,8,Bryan Mbeumo,MUN,MID
+594257,528567,Los Porros Hermanos,Isaac Parr,9,Erling Haaland,MCI,FWD
+594257,528567,Los Porros Hermanos,Isaac Parr,10,Dominic Calvert-Lewin,LEE,FWD
+594257,528567,Los Porros Hermanos,Isaac Parr,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,528567,Los Porros Hermanos,Isaac Parr,12,Martin Dubravka,TOT,GK
+594257,528567,Los Porros Hermanos,Isaac Parr,13,Pascal Groß,BHA,MID
+594257,528567,Los Porros Hermanos,Isaac Parr,14,Joe Rodon,LEE,DEF
+594257,528567,Los Porros Hermanos,Isaac Parr,15,Bobby Thomas,COV,DEF
+594257,3862600,Mainoo Knighted,Sam Jones,1,Senne Lammens,MUN,GK
+594257,3862600,Mainoo Knighted,Sam Jones,2,Neco Williams,NFO,DEF
+594257,3862600,Mainoo Knighted,Sam Jones,3,Riccardo Calafiori,ARS,DEF
+594257,3862600,Mainoo Knighted,Sam Jones,4,Joško Gvardiol,MCI,DEF
+594257,3862600,Mainoo Knighted,Sam Jones,5,Bryan Mbeumo,MUN,MID
+594257,3862600,Mainoo Knighted,Sam Jones,6,Martin Ødegaard,ARS,MID
+594257,3862600,Mainoo Knighted,Sam Jones,7,Bruno Borges Fernandes,MUN,MID
+594257,3862600,Mainoo Knighted,Sam Jones,8,Morgan Rogers,CHE,MID
+594257,3862600,Mainoo Knighted,Sam Jones,9,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3862600,Mainoo Knighted,Sam Jones,10,Alexander Isak,LIV,FWD
+594257,3862600,Mainoo Knighted,Sam Jones,11,Kai Havertz,ARS,FWD
+594257,3862600,Mainoo Knighted,Sam Jones,12,Robin Roefs,SUN,GK
+594257,3862600,Mainoo Knighted,Sam Jones,13,Phil Foden,MCI,MID
+594257,3862600,Mainoo Knighted,Sam Jones,14,Andrew Robertson,TOT,DEF
+594257,3862600,Mainoo Knighted,Sam Jones,15,Ian Maatsen,AVL,DEF
+594257,888310,Memyselfandi1,Craig Davis,1,David Raya Martín,ARS,GK
+594257,888310,Memyselfandi1,Craig Davis,2,Luke Shaw,MUN,DEF
+594257,888310,Memyselfandi1,Craig Davis,3,Riccardo Calafiori,ARS,DEF
+594257,888310,Memyselfandi1,Craig Davis,4,Gabriel dos Santos Magalhães,ARS,DEF
+594257,888310,Memyselfandi1,Craig Davis,5,Dominik Szoboszlai,LIV,MID
+594257,888310,Memyselfandi1,Craig Davis,6,Bryan Mbeumo,MUN,MID
+594257,888310,Memyselfandi1,Craig Davis,7,Bruno Borges Fernandes,MUN,MID
+594257,888310,Memyselfandi1,Craig Davis,8,Antoine Semenyo,MCI,MID
+594257,888310,Memyselfandi1,Craig Davis,9,Kevin Schade,BRE,MID
+594257,888310,Memyselfandi1,Craig Davis,10,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,888310,Memyselfandi1,Craig Davis,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,888310,Memyselfandi1,Craig Davis,12,Carl Rushworth,COV,GK
+594257,888310,Memyselfandi1,Craig Davis,13,Daniel Ballard,SUN,DEF
+594257,888310,Memyselfandi1,Craig Davis,14,Bobby Thomas,COV,DEF
+594257,888310,Memyselfandi1,Craig Davis,15,Taiwo Awoniyi,COV,FWD
+594257,27435,One Andoni Bosh FC !,Craig Jones,1,Bart Verbruggen,BHA,GK
+594257,27435,One Andoni Bosh FC !,Craig Jones,2,Nico O'Reilly,MCI,DEF
+594257,27435,One Andoni Bosh FC !,Craig Jones,3,Riccardo Calafiori,ARS,DEF
+594257,27435,One Andoni Bosh FC !,Craig Jones,4,Trai Hume,SUN,DEF
+594257,27435,One Andoni Bosh FC !,Craig Jones,5,Antoine Semenyo,MCI,MID
+594257,27435,One Andoni Bosh FC !,Craig Jones,6,Bryan Mbeumo,MUN,MID
+594257,27435,One Andoni Bosh FC !,Craig Jones,7,Christos Tzolis,ARS,MID
+594257,27435,One Andoni Bosh FC !,Craig Jones,8,Dominik Szoboszlai,LIV,MID
+594257,27435,One Andoni Bosh FC !,Craig Jones,9,Erling Haaland,MCI,FWD
+594257,27435,One Andoni Bosh FC !,Craig Jones,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,27435,One Andoni Bosh FC !,Craig Jones,11,Alexander Isak,LIV,FWD
+594257,27435,One Andoni Bosh FC !,Craig Jones,12,Antonín Kinský,TOT,GK
+594257,27435,One Andoni Bosh FC !,Craig Jones,13,Bobby Thomas,COV,DEF
+594257,27435,One Andoni Bosh FC !,Craig Jones,14,Milan van Ewijk,COV,DEF
+594257,27435,One Andoni Bosh FC !,Craig Jones,15,Regan Slater,HUL,MID
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,1,David Raya Martín,ARS,GK
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,2,Neco Williams,NFO,DEF
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,3,Lewis Hall,NEW,DEF
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,4,Daniel Muñoz Mejía,CRY,DEF
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,5,Antonee Robinson,FUL,DEF
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,6,Matheus Santos Carneiro da Cunha,MUN,MID
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,7,Morgan Gibbs-White,NFO,MID
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,8,Bruno Borges Fernandes,MUN,MID
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,9,Dominic Calvert-Lewin,LEE,FWD
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,11,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,12,Bart Verbruggen,BHA,GK
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,13,Ismaïla Sarr,CRY,MID
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,14,Ezri Konsa Ngoyo,ARS,DEF
+594257,1512195,Only Wan Iwobi,Chuka Iwobi,15,Dominik Szoboszlai,LIV,MID
+594257,2038413,Parkyking,rodwyn hughes,1,Bart Verbruggen,BHA,GK
+594257,2038413,Parkyking,rodwyn hughes,2,Jeremy Jacquet,LIV,DEF
+594257,2038413,Parkyking,rodwyn hughes,3,Riccardo Calafiori,ARS,DEF
+594257,2038413,Parkyking,rodwyn hughes,4,Trai Hume,SUN,DEF
+594257,2038413,Parkyking,rodwyn hughes,5,Christos Tzolis,ARS,MID
+594257,2038413,Parkyking,rodwyn hughes,6,Bryan Mbeumo,MUN,MID
+594257,2038413,Parkyking,rodwyn hughes,7,Florian Wirtz,LIV,MID
+594257,2038413,Parkyking,rodwyn hughes,8,Bruno Borges Fernandes,MUN,MID
+594257,2038413,Parkyking,rodwyn hughes,9,Dominic Calvert-Lewin,LEE,FWD
+594257,2038413,Parkyking,rodwyn hughes,10,Erling Haaland,MCI,FWD
+594257,2038413,Parkyking,rodwyn hughes,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,2038413,Parkyking,rodwyn hughes,12,Antonín Kinský,TOT,GK
+594257,2038413,Parkyking,rodwyn hughes,13,Ezri Konsa Ngoyo,ARS,DEF
+594257,2038413,Parkyking,rodwyn hughes,14,Leif Davis,IPS,DEF
+594257,2038413,Parkyking,rodwyn hughes,15,Regan Slater,HUL,MID
+594257,3131997,Ragey City,Rob Grainger,1,Bart Verbruggen,BHA,GK
+594257,3131997,Ragey City,Rob Grainger,2,Marc Guéhi,MCI,DEF
+594257,3131997,Ragey City,Rob Grainger,3,Gabriel dos Santos Magalhães,ARS,DEF
+594257,3131997,Ragey City,Rob Grainger,4,Ola Aina,NFO,DEF
+594257,3131997,Ragey City,Rob Grainger,5,Bryan Mbeumo,MUN,MID
+594257,3131997,Ragey City,Rob Grainger,6,Morgan Gibbs-White,NFO,MID
+594257,3131997,Ragey City,Rob Grainger,7,Morgan Rogers,CHE,MID
+594257,3131997,Ragey City,Rob Grainger,8,Bukayo Saka,ARS,MID
+594257,3131997,Ragey City,Rob Grainger,9,Dominik Szoboszlai,LIV,MID
+594257,3131997,Ragey City,Rob Grainger,10,Dominic Calvert-Lewin,LEE,FWD
+594257,3131997,Ragey City,Rob Grainger,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3131997,Ragey City,Rob Grainger,12,Martin Dubravka,TOT,GK
+594257,3131997,Ragey City,Rob Grainger,13,Ollie Watkins,AVL,FWD
+594257,3131997,Ragey City,Rob Grainger,14,Virgil van Dijk,LIV,DEF
+594257,3131997,Ragey City,Rob Grainger,15,Levi Samuels Colwill,CHE,DEF
+594257,6643914,Spursie,Mike Sanders,1,Antonín Kinský,TOT,GK
+594257,6643914,Spursie,Mike Sanders,2,Matty Cash,AVL,DEF
+594257,6643914,Spursie,Mike Sanders,3,Nathan Collins,BRE,DEF
+594257,6643914,Spursie,Mike Sanders,4,Luca Netz,NFO,DEF
+594257,6643914,Spursie,Mike Sanders,5,Lewis Cook,BOU,MID
+594257,6643914,Spursie,Mike Sanders,6,Bruno Borges Fernandes,MUN,MID
+594257,6643914,Spursie,Mike Sanders,7,Mateus Fernandes,TOT,MID
+594257,6643914,Spursie,Mike Sanders,8,Joe Willock,NEW,MID
+594257,6643914,Spursie,Mike Sanders,9,Conor Gallagher,TOT,MID
+594257,6643914,Spursie,Mike Sanders,10,Erling Haaland,MCI,FWD
+594257,6643914,Spursie,Mike Sanders,11,Lukas Nmecha,LEE,FWD
+594257,6643914,Spursie,Mike Sanders,12,David Raya Martín,ARS,GK
+594257,6643914,Spursie,Mike Sanders,13,Jake Bidwell,COV,DEF
+594257,6643914,Spursie,Mike Sanders,14,Zach Abbott,NFO,DEF
+594257,6643914,Spursie,Mike Sanders,15,Omar Marmoush,MCI,FWD
+594257,6855594,The Goodison Gang,Ben Davies,1,David Raya Martín,ARS,GK
+594257,6855594,The Goodison Gang,Ben Davies,2,Nico O'Reilly,MCI,DEF
+594257,6855594,The Goodison Gang,Ben Davies,3,James Tarkowski,EVE,DEF
+594257,6855594,The Goodison Gang,Ben Davies,4,Rico Lewis,MCI,DEF
+594257,6855594,The Goodison Gang,Ben Davies,5,Luke Shaw,MUN,DEF
+594257,6855594,The Goodison Gang,Ben Davies,6,Cole Palmer,CHE,MID
+594257,6855594,The Goodison Gang,Ben Davies,7,Kiernan Dewsbury-Hall,EVE,MID
+594257,6855594,The Goodison Gang,Ben Davies,8,Iliman Ndiaye,EVE,MID
+594257,6855594,The Goodison Gang,Ben Davies,9,Alexis Mac Allister,LIV,MID
+594257,6855594,The Goodison Gang,Ben Davies,10,Erling Haaland,MCI,FWD
+594257,6855594,The Goodison Gang,Ben Davies,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,6855594,The Goodison Gang,Ben Davies,12,Martin Dubravka,TOT,GK
+594257,6855594,The Goodison Gang,Ben Davies,13,Malo Gusto,CHE,DEF
+594257,6855594,The Goodison Gang,Ben Davies,14,Kobbie Mainoo,MUN,MID
+594257,6855594,The Goodison Gang,Ben Davies,15,Kai Havertz,ARS,FWD
+594257,536541,The Jacquet Spuds,Matt Hall,1,Jordan Pickford,EVE,GK
+594257,536541,The Jacquet Spuds,Matt Hall,2,Tyrick Mitchell,CRY,DEF
+594257,536541,The Jacquet Spuds,Matt Hall,3,Nico O'Reilly,MCI,DEF
+594257,536541,The Jacquet Spuds,Matt Hall,4,Gabriel dos Santos Magalhães,ARS,DEF
+594257,536541,The Jacquet Spuds,Matt Hall,5,Matheus Santos Carneiro da Cunha,MUN,MID
+594257,536541,The Jacquet Spuds,Matt Hall,6,Rayan Vitor Simplício Rocha,BOU,MID
+594257,536541,The Jacquet Spuds,Matt Hall,7,Dominik Szoboszlai,LIV,MID
+594257,536541,The Jacquet Spuds,Matt Hall,8,Declan Rice,ARS,MID
+594257,536541,The Jacquet Spuds,Matt Hall,9,Kevin Schade,BRE,MID
+594257,536541,The Jacquet Spuds,Matt Hall,10,Alexander Isak,LIV,FWD
+594257,536541,The Jacquet Spuds,Matt Hall,11,Igor Thiago Nascimento Rodrigues,BRE,FWD
+594257,536541,The Jacquet Spuds,Matt Hall,12,Robin Roefs,SUN,GK
+594257,536541,The Jacquet Spuds,Matt Hall,13,Djed Spence,TOT,DEF
+594257,536541,The Jacquet Spuds,Matt Hall,14,Marco Palestra,CHE,DEF
+594257,536541,The Jacquet Spuds,Matt Hall,15,Ollie Watkins,AVL,FWD
+594257,1926609,The Last Dance,Robin Jones,1,Bart Verbruggen,BHA,GK
+594257,1926609,The Last Dance,Robin Jones,2,Gabriel dos Santos Magalhães,ARS,DEF
+594257,1926609,The Last Dance,Robin Jones,3,Dara O'Shea,IPS,DEF
+594257,1926609,The Last Dance,Robin Jones,4,Luke Shaw,MUN,DEF
+594257,1926609,The Last Dance,Robin Jones,5,Bruno Borges Fernandes,MUN,MID
+594257,1926609,The Last Dance,Robin Jones,6,Bryan Mbeumo,MUN,MID
+594257,1926609,The Last Dance,Robin Jones,7,Dominik Szoboszlai,LIV,MID
+594257,1926609,The Last Dance,Robin Jones,8,Iliman Ndiaye,EVE,MID
+594257,1926609,The Last Dance,Robin Jones,9,Dominic Calvert-Lewin,LEE,FWD
+594257,1926609,The Last Dance,Robin Jones,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,1926609,The Last Dance,Robin Jones,11,Erling Haaland,MCI,FWD
+594257,1926609,The Last Dance,Robin Jones,12,Martin Dubravka,TOT,GK
+594257,1926609,The Last Dance,Robin Jones,13,Kristoffer Ajer,BRE,DEF
+594257,1926609,The Last Dance,Robin Jones,14,Regan Slater,HUL,MID
+594257,1926609,The Last Dance,Robin Jones,15,John Egan,HUL,DEF
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,1,David Raya Martín,ARS,GK
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,2,Riccardo Calafiori,ARS,DEF
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,3,Neco Williams,NFO,DEF
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,4,Rúben dos Santos Gato Alves Dias,MCI,DEF
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,5,Antoine Semenyo,MCI,MID
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,6,Morgan Gibbs-White,NFO,MID
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,7,Bruno Borges Fernandes,MUN,MID
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,8,Florian Wirtz,LIV,MID
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,9,Alexander Isak,LIV,FWD
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,10,Kai Havertz,ARS,FWD
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,11,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,12,Martin Dubravka,TOT,GK
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,13,Pascal Groß,BHA,MID
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,14,Luke Shaw,MUN,DEF
+594257,3885406,The Pursuit of Craig,Gary Snoad-Jones,15,Bobby Thomas,COV,DEF
+594257,874598,Xabi Dabi Doo,Connor Keys,1,Bart Verbruggen,BHA,GK
+594257,874598,Xabi Dabi Doo,Connor Keys,2,Kristoffer Ajer,BRE,DEF
+594257,874598,Xabi Dabi Doo,Connor Keys,3,Harry Maguire,MUN,DEF
+594257,874598,Xabi Dabi Doo,Connor Keys,4,Benjamin White,ARS,DEF
+594257,874598,Xabi Dabi Doo,Connor Keys,5,Bruno Borges Fernandes,MUN,MID
+594257,874598,Xabi Dabi Doo,Connor Keys,6,Mamadou Sangaré,BRE,MID
+594257,874598,Xabi Dabi Doo,Connor Keys,7,Christos Tzolis,ARS,MID
+594257,874598,Xabi Dabi Doo,Connor Keys,8,Bryan Mbeumo,MUN,MID
+594257,874598,Xabi Dabi Doo,Connor Keys,9,João Pedro Junqueira de Jesus,CHE,FWD
+594257,874598,Xabi Dabi Doo,Connor Keys,10,Alexander Isak,LIV,FWD
+594257,874598,Xabi Dabi Doo,Connor Keys,11,Erling Haaland,MCI,FWD
+594257,874598,Xabi Dabi Doo,Connor Keys,12,Jason Steele,BHA,GK
+594257,874598,Xabi Dabi Doo,Connor Keys,13,Dara O'Shea,IPS,DEF
+594257,874598,Xabi Dabi Doo,Connor Keys,14,Will Hughes,CRY,MID
+594257,874598,Xabi Dabi Doo,Connor Keys,15,Bobby Thomas,COV,DEF
+594257,3411001,Xabi Road,Fantasy Elliot,1,David Raya Martín,ARS,GK
+594257,3411001,Xabi Road,Fantasy Elliot,2,Issa Diop,IPS,DEF
+594257,3411001,Xabi Road,Fantasy Elliot,3,Marc Guéhi,MCI,DEF
+594257,3411001,Xabi Road,Fantasy Elliot,4,Cristhian Mosquera,ARS,DEF
+594257,3411001,Xabi Road,Fantasy Elliot,5,Antoine Semenyo,MCI,MID
+594257,3411001,Xabi Road,Fantasy Elliot,6,Bryan Mbeumo,MUN,MID
+594257,3411001,Xabi Road,Fantasy Elliot,7,Morgan Rogers,CHE,MID
+594257,3411001,Xabi Road,Fantasy Elliot,8,Declan Rice,ARS,MID
+594257,3411001,Xabi Road,Fantasy Elliot,9,João Pedro Junqueira de Jesus,CHE,FWD
+594257,3411001,Xabi Road,Fantasy Elliot,10,Erling Haaland,MCI,FWD
+594257,3411001,Xabi Road,Fantasy Elliot,11,Igor Jesus Maciel da Cruz,NFO,FWD
+594257,3411001,Xabi Road,Fantasy Elliot,12,Martin Dubravka,TOT,GK
+594257,3411001,Xabi Road,Fantasy Elliot,13,Marco Palestra,CHE,DEF
+594257,3411001,Xabi Road,Fantasy Elliot,14,Will Hughes,CRY,MID
+594257,3411001,Xabi Road,Fantasy Elliot,15,Milan van Ewijk,COV,DEF
+594257,7217414,Yoro Wizard Harry,Sam Green,1,Bart Verbruggen,BHA,GK
+594257,7217414,Yoro Wizard Harry,Sam Green,2,Riccardo Calafiori,ARS,DEF
+594257,7217414,Yoro Wizard Harry,Sam Green,3,Neco Williams,NFO,DEF
+594257,7217414,Yoro Wizard Harry,Sam Green,4,Harry Maguire,MUN,DEF
+594257,7217414,Yoro Wizard Harry,Sam Green,5,Bruno Borges Fernandes,MUN,MID
+594257,7217414,Yoro Wizard Harry,Sam Green,6,Pascal Groß,BHA,MID
+594257,7217414,Yoro Wizard Harry,Sam Green,7,Dominik Szoboszlai,LIV,MID
+594257,7217414,Yoro Wizard Harry,Sam Green,8,Bryan Mbeumo,MUN,MID
+594257,7217414,Yoro Wizard Harry,Sam Green,9,Dominic Calvert-Lewin,LEE,FWD
+594257,7217414,Yoro Wizard Harry,Sam Green,10,João Pedro Junqueira de Jesus,CHE,FWD
+594257,7217414,Yoro Wizard Harry,Sam Green,11,Erling Haaland,MCI,FWD
+594257,7217414,Yoro Wizard Harry,Sam Green,12,Antonín Kinský,TOT,GK
+594257,7217414,Yoro Wizard Harry,Sam Green,13,Daniel Ballard,SUN,DEF
+594257,7217414,Yoro Wizard Harry,Sam Green,14,Diego Gómez Amarilla,BHA,MID
+594257,7217414,Yoro Wizard Harry,Sam Green,15,Dara O'Shea,IPS,DEF
+594257,4273551,kiliHAM-jaros,Richard Hamlett,1,David Raya Martín,ARS,GK
+594257,4273551,kiliHAM-jaros,Richard Hamlett,2,Joško Gvardiol,MCI,DEF
+594257,4273551,kiliHAM-jaros,Richard Hamlett,3,Trai Hume,SUN,DEF
+594257,4273551,kiliHAM-jaros,Richard Hamlett,4,Leif Davis,IPS,DEF
+594257,4273551,kiliHAM-jaros,Richard Hamlett,5,Bruno Borges Fernandes,MUN,MID
+594257,4273551,kiliHAM-jaros,Richard Hamlett,6,Dominik Szoboszlai,LIV,MID
+594257,4273551,kiliHAM-jaros,Richard Hamlett,7,Bryan Mbeumo,MUN,MID
+594257,4273551,kiliHAM-jaros,Richard Hamlett,8,Kevin Schade,BRE,MID
+594257,4273551,kiliHAM-jaros,Richard Hamlett,9,João Pedro Junqueira de Jesus,CHE,FWD
+594257,4273551,kiliHAM-jaros,Richard Hamlett,10,Dominic Calvert-Lewin,LEE,FWD
+594257,4273551,kiliHAM-jaros,Richard Hamlett,11,Erling Haaland,MCI,FWD
+594257,4273551,kiliHAM-jaros,Richard Hamlett,12,Bart Verbruggen,BHA,GK
+594257,4273551,kiliHAM-jaros,Richard Hamlett,13,Issa Diop,IPS,DEF
+594257,4273551,kiliHAM-jaros,Richard Hamlett,14,Bobby Thomas,COV,DEF
+594257,4273551,kiliHAM-jaros,Richard Hamlett,15,Pascal Groß,BHA,MID
