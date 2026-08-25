@@ -8,7 +8,7 @@ from urllib3.util.retry import Retry
 print("Initialising...")
 
 # === Set your mini-league ID ===
-league_id = '542663'
+league_id = '594257'
 
 # === Shared session with retry/backoff ===
 session = requests.Session()
