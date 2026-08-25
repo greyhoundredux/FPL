@@ -7,7 +7,7 @@ from typing import Dict, List, Tuple
 from tqdm import tqdm
 
 # ========= Configuration =========
-LEAGUE_ID = 542663  # your mini-league
+LEAGUE_ID = 594257  # your mini-league
 USER_AGENT = "FPL-Data-Collector/1.0 (+https://example.com)"
 REQUEST_DELAY = 0.35  # seconds between requests to be polite
 INCLUDE_ONLY_FINALISED_GWS = True  # True = only GWs with data_checked==True
