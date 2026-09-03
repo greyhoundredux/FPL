@@ -321,7 +321,7 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 594257,6855594,The Goodison Gang,Ben Davies,5,Luke Shaw,MUN,DEF,Ezri Konsa Ngoyo,ARS,DEF
 594257,6855594,The Goodison Gang,Ben Davies,6,Cole Palmer,CHE,MID,Cole Palmer,CHE,MID
 594257,6855594,The Goodison Gang,Ben Davies,7,Kiernan Dewsbury-Hall,EVE,MID,Kiernan Dewsbury-Hall,EVE,MID
-594257,6855594,The Goodison Gang,Ben Davies,8,Iliman Ndiaye,EVE,MID,Iliman Ndiaye,EVE,MID
+594257,6855594,The Goodison Gang,Ben Davies,8,Iliman Ndiaye,MCI,MID,Iliman Ndiaye,MCI,MID
 594257,6855594,The Goodison Gang,Ben Davies,9,Alexis Mac Allister,LIV,MID,Erling Haaland,MCI,FWD
 594257,6855594,The Goodison Gang,Ben Davies,10,Erling Haaland,MCI,FWD,João Pedro Junqueira de Jesus,CHE,FWD
 594257,6855594,The Goodison Gang,Ben Davies,11,João Pedro Junqueira de Jesus,CHE,FWD,Kai Havertz,ARS,FWD
@@ -351,7 +351,7 @@ league_id,entry_id,entry_name,manager_name,roster_slot,GW1_Player,GW1_Team,GW1_P
 594257,1926609,The Last Dance,Robin Jones,5,Bruno Borges Fernandes,MUN,MID,Bruno Borges Fernandes,MUN,MID
 594257,1926609,The Last Dance,Robin Jones,6,Bryan Mbeumo,MUN,MID,Bryan Mbeumo,MUN,MID
 594257,1926609,The Last Dance,Robin Jones,7,Dominik Szoboszlai,LIV,MID,Dominik Szoboszlai,LIV,MID
-594257,1926609,The Last Dance,Robin Jones,8,Iliman Ndiaye,EVE,MID,Iliman Ndiaye,EVE,MID
+594257,1926609,The Last Dance,Robin Jones,8,Iliman Ndiaye,MCI,MID,Iliman Ndiaye,MCI,MID
 594257,1926609,The Last Dance,Robin Jones,9,Dominic Calvert-Lewin,LEE,FWD,Dominic Calvert-Lewin,LEE,FWD
 594257,1926609,The Last Dance,Robin Jones,10,João Pedro Junqueira de Jesus,CHE,FWD,João Pedro Junqueira de Jesus,CHE,FWD
 594257,1926609,The Last Dance,Robin Jones,11,Erling Haaland,MCI,FWD,Erling Haaland,MCI,FWD
